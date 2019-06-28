@@ -1,0 +1,15 @@
+.bookingReqDetailsContainer {
+  padding: 20px 20px 20px 20px;
+}
+
+/**********css helper classes********/
+
+.clearFixVerticalVS {
+  height: 100%;
+  width: 2%;
+}
+
+.clearFixHorizontalVS {
+  height: 25px;
+  width: 100%;
+}

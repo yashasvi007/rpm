@@ -1,0 +1,62 @@
+@import "../../styles/variables/index.less";
+.change-password {
+  &.ant-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.change-password-sticky-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 72px;
+  border-top: solid 1px #d4d7d9;
+  > div {
+    padding-top: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media (min-width: @desktop-min) {
+  .error-component {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #fff8f5;
+  }
+}
+
+@media (max-width: @tablet-9-max) and (min-width: @tablet-9-min) {
+  .error-component {
+    position: fixed;
+    bottom: 108px;
+    left: 0;
+    right: 0;
+    background-color: #fff8f5;
+  }
+}
+
+@media (max-width: @tablet-7-max) and (min-width: @tablet-7-min) {
+  .error-component {
+    position: fixed;
+    bottom: 108px;
+    left: 0;
+    right: 0;
+    background-color: #fff8f5;
+  }
+}
+
+@media (max-width: @mobile-max) {
+  .error-component {
+    position: fixed;
+    bottom: 108px;
+    left: 0;
+    right: 0;
+    background-color: #fff8f5;
+  }
+}

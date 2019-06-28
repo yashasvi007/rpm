@@ -1,0 +1,27 @@
+@import (reference) "../../styles/variables/index.less";
+
+#root {
+  .pdf-viewer {
+    padding-bottom: 30px;
+    width: 100%;
+    .react-pdf__Page__canvas {
+      margin: auto;
+    }
+    .page-number {
+      height: 60px;
+      margin: 10px 10px 10px 0px;
+      align-items: center;
+      justify-content: flex-end;
+      bottom: 72px;
+      display: flex;
+      flex-direction: row;
+
+      .text {
+        padding: 10px 10px 0px 10px;
+      }
+    }
+    .padding-10 {
+      padding: 10px;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "app.searchresult.program",
+    "description": "program in dropdown",
+    "defaultMessage": "Program"
+  },
+  {
+    "id": "app.searchresult.patient",
+    "description": "patient in dropdown",
+    "defaultMessage": "Patient"
+  },
+  {
+    "id": "app.searchresult.doctor",
+    "description": "doctor in dropdown",
+    "defaultMessage": "Doctor"
+  },
+  {
+    "id": "app.searchresult.searchResult",
+    "description": "searchResults",
+    "defaultMessage": "Search Results"
+  },
+  {
+    "id": "app.searchresult.sortBy",
+    "description": "sortBy",
+    "defaultMessage": "Sort By:"
+  },
+  {
+    "id": "app.searchresult.recentlyUpdated",
+    "description": "recentlyUpdated",
+    "defaultMessage": "Recently Updated"
+  },
+  {
+    "id": "app.searchresult.name",
+    "description": "name",
+    "defaultMessage": "Name"
+  },
+  {
+    "id": "app.searchresult.dateAdded",
+    "description": "dateAdded",
+    "defaultMessage": "Date Added"
+  }
+]

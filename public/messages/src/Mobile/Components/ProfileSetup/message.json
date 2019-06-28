@@ -1,0 +1,67 @@
+[
+  {
+    "id": "app.profile-setup.step1",
+    "description": "first step",
+    "defaultMessage": "1. Upload consent form"
+  },
+  {
+    "id": "app.profile-setup.step2",
+    "description": "second step",
+    "defaultMessage": "2. Upload ID Proof"
+  },
+  {
+    "id": "app.profile-setup.step3",
+    "description": "third step",
+    "defaultMessage": "3. Setup Profile"
+  },
+  {
+    "id": "app.profile-setup.consentForm",
+    "description": "consent form text",
+    "defaultMessage": "Upload consent form"
+  },
+  {
+    "id": "app.profile-setup.consentForm.title",
+    "description": "",
+    "defaultMessage": "Please upload scanned copy of consent form duly signed by you"
+  },
+  {
+    "id": "app.profile-setup.consentForm.subtitle",
+    "description": "",
+    "defaultMessage": "View/re-upload the same from “profile settings” later"
+  },
+  {
+    "id": "app.profile-setup.idProof",
+    "description": "id proof",
+    "defaultMessage": "Upload ID Proof"
+  },
+  {
+    "id": "app.profile-setup.idProof.title",
+    "description": "",
+    "defaultMessage": "Please upload scanned copy of ID proof"
+  },
+  {
+    "id": "app.profile-setup.idProof.subtitle",
+    "description": "",
+    "defaultMessage": "View/re-upload the same from “profile settings” later"
+  },
+  {
+    "id": "app.profile-setup.documentUploadHelp1",
+    "description": "",
+    "defaultMessage": "Or simpy drag & drop"
+  },
+  {
+    "id": "app.profile-setup.documentUploadHelp2",
+    "description": "",
+    "defaultMessage": "image files here"
+  },
+  {
+    "id": "app.profile-setup.uploadButton",
+    "description": "",
+    "defaultMessage": "Select one or more files from your computer"
+  },
+  {
+    "id": "app.profile-setup.uploading",
+    "description": "",
+    "defaultMessage": "Uploading"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "app.modal.clinicalReading",
+    "description": "",
+    "defaultMessage": "Edit/Add Clinical Reading of patient(s)"
+  },
+  {
+    "id": "app.modal.cancel",
+    "description": "",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "app.modal.submitButton",
+    "description": "",
+    "defaultMessage": "Submit"
+  }
+]

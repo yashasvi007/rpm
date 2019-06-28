@@ -1,0 +1,102 @@
+@import "../../styles/variables/index.less";
+
+#root {
+  min-height: 100%;
+}
+
+.tabstitle {
+  width: 960px;
+}
+.tabs {
+  width: 960px;
+  margin-top: @106px;
+  margin-bottom: @34px;
+}
+.searchresultdiv {
+  //height: 100%;
+  height: -webkit-fill-available;
+  padding: 0 248px;
+  justify-content: center;
+  background: rgba(212, 215, 217, 0.1);
+}
+.searchresult {
+  color: @dark;
+  font-weight: 600;
+}
+.sorting {
+  height: @40px;
+  justify-content: space-around;
+  background: rgba(212, 215, 217, 0.3);
+}
+.sortedBy {
+  padding-left: @20px;
+  color: @dark;
+  font-family: @MediumFont;
+}
+.sorting .ant-select {
+  width: @188px;
+}
+
+.sorting .ant-select .ant-select-selection {
+  height: @40px;
+  width: @175px;
+  border: 0;
+  background: rgba(212, 215, 217, -0.7);
+  margin-bottom: @10px;
+}
+.sorting .ant-select-focused .ant-select-selection {
+  box-shadow: none;
+  border: 0;
+}
+
+.sorting .ant-select-open .ant-select-selection {
+  box-shadow: none;
+  border: 0;
+}
+.sorting .ant-select .ant-select-selection {
+  .ant-select-selection__rendered .ant-select-selection-selected-value {
+    color: @dark;
+    font-family: @MediumFont;
+  }
+}
+.sorting .ant-select .ant-select-selection {
+  .ant-select-selection__rendered {
+    margin: 0;
+  }
+}
+.sortedbymenu .ant-dropdown-menu-item:hover {
+  background-color: #d4d7d9;
+}
+.sortedByIcon {
+  color: @dark;
+  font-family: @MediumFont;
+}
+.tabscontent.ant-tabs-tabpane {
+  flex-wrap: wrap;
+}
+.tabstitle .ant-tabs-bar .ant-tabs-nav-container {
+  .ant-tabs-nav .ant-tabs-ink-bar {
+    background-color: @dark;
+    height: @4px;
+  }
+}
+
+.tabstitle .ant-tabs-bar .ant-tabs-nav-container {
+  .ant-tabs-nav .ant-tabs-tab-active {
+    color: @dark;
+  }
+}
+
+.tabstitle .ant-tabs-bar .ant-tabs-nav-container {
+  .ant-tabs-nav .ant-tabs-tab:hover {
+    color: @dark;
+  }
+}
+.tabstitle .ant-tabs-bar .ant-tabs-nav-container {
+  .ant-tabs-nav .ant-tabs-tab-active:hover {
+    color: @dark;
+  }
+}
+.arrowImg {
+  margin-top: -4px;
+}

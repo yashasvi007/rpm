@@ -1,0 +1,763 @@
+@import "../../../styles/variables/index.less";
+
+.m {
+  .programs.ant-card {
+    margin: @16px @10px @16px @10px;
+    border: 1px solid @silver;
+    //min-width: 304px !important;
+  }
+
+  .programs .ant-card-body {
+    padding: @16px;
+  }
+
+  .programData {
+    font-family: @MediumFont;
+    color: @dark;
+  }
+
+  .m.patient-mobile {
+    height: @120px;
+    width: 100%;
+    font-family: @MediumFont;
+    color: @dark;
+
+    &.ant-card-bordered {
+      min-width: auto;
+    }
+
+    &.selected {
+      &.ant-card {
+        margin-bottom: @16px;
+        width: 100%;
+        border: 1px solid @dark;
+      }
+    }
+  }
+
+  .patientInfo {
+    font-size: @18px;
+    font-family: @MediumFont;
+  }
+
+  .m.patient-mobile.ant-card {
+    // margin-right: @16px;
+    width: 100%;
+    margin-bottom: @16px;
+    border: 1px solid @silver;
+  }
+
+  .m.patient-mobile.ant-card.ant-card-bordered {
+    min-width: 0;
+  }
+
+  .m.patient-mobile.ant-card:hover {
+    //margin-right: @16px;
+    margin-bottom: @16px;
+    border: 1px solid @dark;
+  }
+
+  .m.patient-mobile .ant-card-body {
+    padding: @16px;
+  }
+
+  .selectPatient {
+    height: @40px;
+    position: absolute;
+    right: @12px;
+  }
+
+  .doctor {
+    min-height: @100px;
+    margin-right: @8px;
+    color: @dark;
+
+    &.ant-card-bordered {
+      min-width: auto;
+    }
+  }
+
+  .doctor.ant-card {
+    margin-right: @8px;
+    margin-bottom: @16px;
+    border: 1px solid @silver;
+  }
+
+  .doctor .ant-card-body {
+    padding: @16px;
+  }
+
+  .doctors {
+    list-style-type: none;
+    margin-left: @16px;
+  }
+
+  .patientDp {
+    width: @40px;
+    height: @40px;
+  }
+
+  .patients {
+    list-style-type: none;
+    margin-left: @16px;
+  }
+
+  .programs ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .programs li {
+    padding-bottom: @4px;
+  }
+
+  .cardImg {
+    width: @16px;
+    height: @16px;
+    margin-right: @10px;
+  }
+
+  .Activenow {
+    margin-bottom: @8px;
+    width: @50px;
+    height: @24px;
+    border-radius: @12px;
+    background-color: #e3f3df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Expirenow {
+    margin-bottom: @8px;
+    width: @59px;
+    height: @24px;
+    border-radius: @12px;
+    background-color: #f2f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Inprogressnow {
+    width: @80px;
+    height: @30px;
+    border-radius: @12px;
+    background-color: @light-blue-grey;
+  }
+
+  .Completed {
+    margin-bottom: @8px;
+    width: @80px;
+    height: @24px;
+    border-radius: @12px;
+    background-color: @very-light-green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.inprogress {
+      background-color: @very-light-green;
+    }
+
+    &.completed {
+      background-color: @light-blue-grey;
+    }
+  }
+
+  .download-report-btn.ant-btn {
+    width: 147px;
+    height: 32px;
+    border-radius: 2px;
+    margin-left: 44px;
+  }
+
+  .survey-card-mobile {
+    .newSurvey {
+      margin-bottom: @8px;
+      width: @45px;
+      height: @24px;
+      border-radius: @12px;
+      background-color: @very-light-green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .patient-survey-card {
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    height: fit-content;
+    border: 1px solid @silver;
+    margin-bottom: 18px;
+
+    .patient-survey-card-head {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 20px 18px 6px 18px;
+      width: auto;
+
+      .patient-survey-card-head-left {
+        display: flex;
+        flex-grow: 1;
+        font-family: @DemiBold;
+        font-size: 14px;
+        color: @dark;
+        flex-direction: column;
+
+        .patient-survey-card-sub-heading {
+          display: flex;
+          flex-direction: row;
+          font-family: @MediumFont;
+          align-items: center;
+
+          .text {
+            margin-right: 8px;
+          }
+        }
+      }
+
+      .patient-survey-card-head-right {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row-reverse;
+
+        .ant-btn-sm {
+          padding: 0 7px;
+          font-size: 14px;
+          border-radius: 3px;
+          height: 32px;
+        }
+      }
+    }
+
+    .patient-survey-card-body {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 6px 18px 18px 18px;
+      width: auto;
+    }
+  }
+
+  .extra-events {
+    width: auto;
+    height: auto;
+    float: right;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    padding-right: 5px;
+    z-index: 10;
+    font-weight: bold;
+  }
+
+  .isHighligted {
+    background-color: #005587;
+    color: white;
+  }
+
+  .isFadeHighligted {
+    background-color: #0055978f;
+    color: white;
+  }
+
+  .calendar-full .body .disabled {
+    color: #ccc;
+    //pointer-events: none;
+  }
+
+  .calendar-full .body .cell .bg {
+    font-weight: 700;
+    line-height: 1;
+    color: #1a8fff;
+    opacity: 0;
+    font-size: 8em;
+    position: absolute;
+    top: -0.2em;
+    right: -0.05em;
+    transition: 0.25s ease-out;
+    letter-spacing: -0.07em;
+  }
+
+  .calendar-full .body .col {
+    flex-grow: 0;
+    flex-basis: calc(100% / 7);
+    width: calc(100% / 7);
+  }
+
+  .calendar-date {
+    font-size: 12px;
+
+    &.event-passed {
+      color: gray;
+      text-decoration: line-through;
+    }
+  }
+
+  .calendar-modals {
+    height: auto;
+    min-height: 100%;
+
+    .ant-modal {
+      width: 480px !important;
+      margin: 0;
+      padding: 0;
+      height: auto;
+      min-height: 100%;
+      background: white;
+      top: 0px;
+      float: right;
+
+      .ant-modal-close {
+        left: 4px;
+        color: #2b3a42;
+
+        i.ant-modal-close-icon {
+          font-size: 20px;
+        }
+      }
+
+      .ant-modal-title {
+        margin-left: 36px;
+        font-size: 18px;
+        color: #2b3a42;
+      }
+
+      .ant-form-item-required {
+        font-size: 12px;
+      }
+
+      .ant-form label {
+        font-size: 12px;
+      }
+
+      .optional {
+        font-size: 16px;
+        color: #2b3a42;
+        margin-bottom: 10px;
+        margin-top: 40px;
+      }
+
+      .ant-modal-header {
+        border-bottom: none;
+      }
+
+      .ant-modal-content {
+        border-radius: 0px;
+        display: flex;
+        width: 480px;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: none !important;
+
+        .ant-modal-body {
+          padding: 0;
+          overflow: auto;
+        }
+
+        .dashboard-success-msg {
+          position: absolute;
+          top: 65px;
+          right: 0;
+          width: 480px;
+          z-index: 111111111;
+        }
+      }
+
+      .cancel-button.hidden {
+        display: none !important;
+      }
+
+      .ant-select-arrow {
+        top: 35%;
+      }
+
+      .end-padding {
+        padding-bottom: 45px;
+      }
+    }
+  }
+
+  .hover {
+    position: relative;
+    top: 44px;
+    left: 20px;
+    display: block;
+    max-width: max-content;
+
+    &:hover &__no-hover {
+      opacity: 1;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+    &:hover &__hover {
+      z-index: 11;
+      display: initial;
+      opacity: 1;
+      visibility: visible;
+      //transition: visibility 0s linear 0s, opacity 300ms;
+    }
+
+    &__hover {
+      //display : none;
+      position: absolute;
+      //opacity : 0;
+      visibility: hidden;
+      opacity: 0;
+
+      //transition: visibility 0s linear 300ms, opacity 300ms;
+      //visibility: hidden;
+      //visibility: visible;
+      //opacity   : 1;
+      &.change-to-right {
+        margin-left: -300px;
+      }
+
+      &.change-to-top-reminder {
+        margin-top: -140px;
+      }
+
+      &.change-to-top-appointment {
+        margin-top: -180px;
+      }
+    }
+
+    &__no-hover {
+      opacity: 1;
+    }
+  }
+
+  .calender-card.ant-card {
+    z-index: 10000;
+
+    &.ant-card-bordered {
+      //top     : 20px;
+      min-width: 304px;
+      min-height: auto;
+      z-index: 10;
+
+      .ant-card-head {
+        padding: 0 0 0 16px;
+        border: none;
+      }
+    }
+
+    .ant-card-body {
+      padding-top: 0;
+      padding-bottom: 10px;
+
+      .reminder-more-options {
+        display: flex;
+        justify-content: flex-end;
+
+        .right {
+          display: flex;
+          justify-content: flex-start;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .calender-card.ant-card-body {
+    padding: 10px 0px 0px 10px;
+    //padding-bottom: 10px;
+  }
+
+  .ant-avatar {
+    &.ant-avatar-circle {
+      width: 24px;
+      height: 22px;
+      left: -11px;
+      border-radius: 15px;
+      top: -1px;
+    }
+  }
+
+  .card-top {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #7f888d;
+    margin-bottom: 4px;
+    line-height: 1.33;
+    letter-spacing: normal;
+  }
+
+  .card-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .reminder-card-title {
+      display: flex;
+    }
+
+    .card-title-left {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+
+      .time-icon {
+        display: flex;
+      }
+    }
+
+    //justify-content: space-between;
+    .time-text {
+      margin-left: 8px;
+      margin-right: 8px;
+      width: 116px;
+      height: 24px;
+      font-size: 14px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      color: #2b3a42;
+    }
+
+    .status {
+      height: 24px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      padding-left: 8px;
+      padding-right: 8px;
+      width: fit-content;
+
+      &.status-upcoming {
+        background-color: #fff8d9;
+      }
+
+      &.status-overdue {
+        background-color: #fee7cf;
+      }
+
+      &.status-completed {
+        background-color: #e3f3df;
+      }
+    }
+
+    .calendar-card-button {
+      .done-button {
+        width: 104px;
+        height: 32px;
+        padding-left: 8px;
+        float: right;
+        margin-right: 20px;
+        color: #32b9d1;
+        border-color: #32b9d1;
+      }
+
+      .undo-button {
+        font-size: 14px;
+        font-weight: 500;
+        margin-right: 20px;
+        float: right;
+        width: 68px;
+        height: 32px;
+        border-radius: 2px;
+        background-color: rgba(212, 215, 217, 0.3);
+        border-color: rgba(212, 215, 217, 0.3);
+        color: #2b3a42;
+      }
+    }
+  }
+
+  .card-cover {
+    margin-top: 8px;
+
+    .coach-activity {
+      width: 72px;
+      height: 24px;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      color: var(--dark);
+      margin-right: 8px;
+    }
+
+    .coach-activity-reminder {
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      color: var(--dark);
+      margin-right: 8px;
+    }
+
+    .coach-avatar {
+      width: auto;
+      height: 24px;
+      border-radius: 12px;
+      background-color: rgba(204, 237, 243, 0.5);
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      font-size: 12px;
+      color: #005587;
+      padding: 3px 11px 3px 11px;
+    }
+  }
+
+  .card-modal-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .card-activity {
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      color: #2b3a42;
+      width: 70%;
+      margin-left: 2px;
+    }
+
+    .more-options {
+      width: 30%;
+      margin-right: 25px;
+      text-align: right;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: right;
+      color: #2b3a42;
+      text-decoration: underline;
+    }
+  }
+
+  .card-meta {
+    .activity-type {
+      height: 24px;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      color: #2b3a42;
+    }
+
+    .invisible {
+      display: none;
+      margin-bottom: 5px;
+    }
+
+    .visible {
+      display: block;
+      padding: 0px 0px 10px 0px;
+      max-width: 100%;
+    }
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+
+    .more-options {
+      text-align: right;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: right;
+      color: #2b3a42;
+      text-decoration: underline;
+
+      //padding: 0px 13px 0px 0px;
+      hr {
+        width: 60%;
+        float: left;
+        color: #d4d7d9;
+        margin-top: 10px;
+        border: solid 0.5px;
+      }
+    }
+
+    .disabled-options {
+      opacity: 0.7;
+      pointer-events: none;
+      cursor: not-allowed !important;
+    }
+
+    .invisible {
+      display: none;
+      margin-bottom: 5px;
+    }
+
+    .visible {
+      padding-top: 10px;
+      display: block;
+    }
+
+    .drop-down {
+      line-height: 3em;
+      letter-spacing: normal;
+      height: 40px;
+      padding-left: 20px;
+      font-size: 14px;
+      font-family: "AvenirNext-Medium";
+    }
+
+    .cancel {
+      color: #ff530d;
+    }
+  }
+
+  .icon-images {
+    padding-bottom: 3px;
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+  }
+
+  .icon-activity-modes {
+    margin-right: 8px;
+    margin-bottom: 4px;
+    height: 14px;
+    width: 14px;
+  }
+
+  // Article card related styles
+
+  .article-card {
+    margin-right: @16px;
+    margin-bottom: @16px;
+    border: 1px solid @silver;
+    width: 100%;
+
+    .dot.dark {
+      background-color: @silver;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@import "../../../styles/variables/index.less";
+
+@media (max-width: @tablet-9-max) and (min-width: @tablet-9-min) {
+  #root {
+    .header {
+      background-color: @topbar-bg-color;
+      color: @white;
+      .logo-block {
+        height: 64px;
+      }
+    }
+
+    .upper-content {
+      padding: 0 40px;
+    }
+    .computerDeskDoctor {
+      position: relative;
+      height: 350px;
+      z-index: 0;
+      .hero_background {
+        background-image: url("../../../Assets/images/hero-bg@3x.png");
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+      }
+
+      .hero_container {
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+        > div > h1 {
+          width: 600px;
+          font-size: 32px;
+        }
+      }
+    }
+
+    .landing-copyright-bottom {
+      padding-top: 64px;
+      padding-bottom: @88px;
+    }
+
+    .signup-footer {
+      padding-top: 10px;
+      background-color: @white;
+      float: right;
+      bottom: 0;
+      height: @80px;
+      position: fixed;
+      width: 100%;
+    }
+  }
+}

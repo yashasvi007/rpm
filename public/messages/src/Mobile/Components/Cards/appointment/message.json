@@ -1,0 +1,67 @@
+[
+  {
+    "id": "calendarCard.appointment.cancel",
+    "description": "",
+    "defaultMessage": "Cancel Appointment"
+  },
+  {
+    "id": "calendarCard.appointment.reschedule",
+    "description": "",
+    "defaultMessage": "Reschedule appointment"
+  },
+  {
+    "id": "calendarCard.appointment.rescheduleAll",
+    "description": "",
+    "defaultMessage": "Reschedule all Appointments"
+  },
+  {
+    "id": "calendarCard.appointment.rescheduleThis",
+    "description": "",
+    "defaultMessage": "Reschedule this Appointment"
+  },
+  {
+    "id": "calendarCard.appointment.editNotes",
+    "description": "",
+    "defaultMessage": "Edit Notes"
+  },
+  {
+    "id": "calendarCard.appointment.updateVitals",
+    "description": "",
+    "defaultMessage": "Update Vitals"
+  },
+  {
+    "id": "calendarCard.appointment.updateMedication",
+    "description": "",
+    "defaultMessage": "Update Medication"
+  },
+  {
+    "id": "calendarCard.appointment.updateClinicalReadings",
+    "description": "",
+    "defaultMessage": "Update Clinical Readings"
+  },
+  {
+    "id": "calendarCard.appointment.doneButton",
+    "description": "",
+    "defaultMessage": "Mark as done"
+  },
+  {
+    "id": "calendarCard.appointment.undoButton",
+    "description": "",
+    "defaultMessage": "Undo"
+  },
+  {
+    "id": "calendarCard.appointment.joinCallButton",
+    "description": "",
+    "defaultMessage": "Join Call"
+  },
+  {
+    "id": "calendarCard.appointment.scheduledBy",
+    "description": "",
+    "defaultMessage": "Scheduled by"
+  },
+  {
+    "id": "calendarCard.appointment.markAsDoneBy",
+    "description": "",
+    "defaultMessage": "Mark as done by"
+  }
+]

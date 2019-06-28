@@ -1,0 +1,17 @@
+[
+  {
+    "id": "app.historical-clinical-reading.close",
+    "description": "",
+    "defaultMessage": "Close"
+  },
+  {
+    "id": "app.historical-clinical-reading.download_csv",
+    "description": "",
+    "defaultMessage": "Download CSV"
+  },
+  {
+    "id": "app.historical-clinical-reading.historical_clinical_reading",
+    "description": "",
+    "defaultMessage": "Historical Clinical Reading"
+  }
+]

@@ -1,0 +1,75 @@
+.ant-form-item-control {
+  line-height: 0;
+}
+
+.ant-form-item-label {
+  width: Auto;
+  line-height: 1 !important;
+  padding-bottom: 5px !important;
+  > label {
+    .fontsize12;
+  }
+  > label:after {
+    content: "" !important;
+  }
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: @dark;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  //background-color: @dark;
+  border-color: @dark;
+}
+
+.ant-radio-button-wrapper-checked {
+  background: #fff;
+  border-color: @dark;
+  box-shadow: -1px 0 0 0 @dark;
+  &:hover {
+    border-color: @dark;
+    box-shadow: -1px 0 0 0 @dark;
+  }
+  &:first-child {
+    border-color: @dark;
+  }
+}
+
+.ant-radio-group-solid .ant-radio-button-wrapper-checked {
+  &:not(.ant-radio-button-wrapper-disabled) {
+    background-color: @dark;
+    border-color: @dark;
+    color: #fff;
+    box-shadow: -1px 0 0 0 @dark;
+    &:hover {
+      background-color: @dark;
+      border-color: @dark;
+      color: #fff;
+      box-shadow: -1px 0 0 0 @dark;
+    }
+  }
+}
+
+.has-error {
+  // .debug(@warning-color);
+  .ant-input,
+  .ant-time-picker-input,
+  .ant-time-picker-input:hover,
+  .ant-input:hover {
+    border-color: @warning-color;
+  }
+
+  .ant-input:focus,
+  .ant-time-picker-input:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(@warning-color, 0.2);
+    border-right-width: 1px !important;
+  }
+  .ant-form-explain {
+    color: @warning-color;
+    font-size: @12px;
+  }
+}

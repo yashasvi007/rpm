@@ -1,0 +1,45 @@
+@import "../../../styles/variables/index.less";
+.m {
+  .questionnnaire-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 64px;
+    height: calc(100vh - 64px);
+    width: 100%;
+    justify-content: space-between;
+    background-color: @silver-10;
+
+    .questionnnaire-content {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      overflow-y: auto;
+      padding: 16px;
+
+      .newSurvey {
+        margin-bottom: @8px;
+        width: @45px;
+        height: @24px;
+        border-radius: @12px;
+        background-color: @very-light-green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .questionnaire-footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      height: 72px;
+      padding: 16px;
+      border: solid 1px @silver;
+    }
+    .back-location {
+      padding: @24px;
+    }
+  }
+}

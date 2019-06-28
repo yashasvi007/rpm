@@ -1,0 +1,22 @@
+[
+  {
+    "id": "app.modal.verifyButton",
+    "description": "",
+    "defaultMessage": "Verify"
+  },
+  {
+    "id": "app.modal.reUploadButton",
+    "description": "",
+    "defaultMessage": "Re-upload (JPG,PDF)"
+  },
+  {
+    "id": "app.modal.consentFormCheckbox",
+    "description": "",
+    "defaultMessage": "Consent Form"
+  },
+  {
+    "id": "app.modal.idProofCheckbox",
+    "description": "",
+    "defaultMessage": "ID Proof"
+  }
+]

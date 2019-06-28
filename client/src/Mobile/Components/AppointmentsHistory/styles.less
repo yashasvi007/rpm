@@ -1,0 +1,93 @@
+@import "../../../styles/variables/index.less";
+
+.icons {
+  height: @24px;
+  width: @24px;
+}
+
+.ant-timeline-item {
+  .ant-timeline-item-content {
+    position: relative;
+    top: -@6px;
+    margin: 0 0 0 @34px;
+  }
+}
+
+.ant-avatar {
+  &.ant-avatar-circle {
+    width: 24px;
+    height: 22px;
+    left: -11px;
+    border-radius: 15px;
+    top: -1px;
+  }
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  .history-title {
+    font-size: @22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.09;
+    letter-spacing: normal;
+    color: @dark;
+    padding: @24px @16px @16px @16px;
+    width: 100%;
+  }
+  .time-line {
+    margin-top: @2px;
+    margin-left: @15px;
+    .main-date {
+      font-family: @MediumFont;
+      line-height: 1.71;
+      letter-spacing: normal;
+      color: @dark;
+    }
+    .blue-dot {
+      display: inline-block;
+      width: @12px;
+      height: @12px;
+      background: @deep-sea-blue;
+      border-radius: @20px;
+    }
+    .time {
+      font-family: @MediumFont;
+      font-size: @12px;
+      font-weight: 500;
+      font-style: normal;
+      line-height: 2;
+      .activity-name {
+        padding-top: @4px;
+        font-size: @14px;
+        font-family: @RegularFont;
+      }
+    }
+    .coach-avatar {
+      width: auto;
+      height: @24px;
+      border-radius: @12px;
+      background-color: rgba(@light-blue-grey, 0.5);
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      font-size: @12px;
+      font-family: @MediumFont;
+      color: @deep-sea-blue;
+      padding: @3px @11px @3px @11px;
+      margin-left: @8px;
+    }
+  }
+  .history-body {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}

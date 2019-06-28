@@ -1,0 +1,37 @@
+[
+  {
+    "id": "app.sign-in.email",
+    "description": "email text",
+    "defaultMessage": "Email"
+  },
+  {
+    "id": "app.sign-in.password",
+    "description": "password text",
+    "defaultMessage": "Password"
+  },
+  {
+    "id": "app.sign-in.sign-in",
+    "description": "sign in button text",
+    "defaultMessage": "Sign In"
+  },
+  {
+    "id": "app.sign-in.forgot-password",
+    "description": "forgot password",
+    "defaultMessage": "Forgot Password?"
+  },
+  {
+    "id": "app.sign-in.password-error",
+    "description": "password not filled error text",
+    "defaultMessage": "Please enter your password"
+  },
+  {
+    "id": "app.sign-in.enter-email",
+    "description": "email decorator text",
+    "defaultMessage": "Please enter your email"
+  },
+  {
+    "id": "app.sign-in.valid-email",
+    "description": "valid email decorator text",
+    "defaultMessage": "Please provide a valid email"
+  }
+]

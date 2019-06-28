@@ -1,0 +1,62 @@
+[
+  {
+    "id": "app.surveyDetail.allSurveys",
+    "description": "allSurveys in surveyDetail Page",
+    "defaultMessage": "All Surveys"
+  },
+  {
+    "id": "app.surveyDetail.endSurvey",
+    "description": "endSurvey in surveyDetail page",
+    "defaultMessage": "End Survey"
+  },
+  {
+    "id": "app.SurveyDetail.downloadReport",
+    "description": "downloadReport in surveyDetail page",
+    "defaultMessage": "Download Report"
+  },
+  {
+    "id": "app.surveyDetail.sendToMorePatients",
+    "description": "send To More Patients in surveyDetail page",
+    "defaultMessage": "Send to more Patients"
+  },
+  {
+    "id": "app.surveyDetail.survey",
+    "description": "Survey in surveyDetail page",
+    "defaultMessage": "Survey:"
+  },
+  {
+    "id": "app.surveyDetail.sortBy",
+    "description": "sortBy in surveyDetail page",
+    "defaultMessage": "SortBy:"
+  },
+  {
+    "id": "app.surveyDetail.name",
+    "description": "name in surveyDetail page",
+    "defaultMessage": "Name"
+  },
+  {
+    "id": "app.surveyDetail.surveySentDate",
+    "description": "surveySentDate in surveyDetail page",
+    "defaultMessage": "Survey Sent Date"
+  },
+  {
+    "id": "app.surveyDetail.sendSurvey",
+    "description": "sendSurvey in surveyDetail page",
+    "defaultMessage": "Send Survey"
+  },
+  {
+    "id": "app.surveyDetail.patientSelected",
+    "description": "patientSelected in surveyDetail page",
+    "defaultMessage": "Patient(s) selected"
+  },
+  {
+    "id": "app.surveyDetail.result",
+    "description": "result in surveyDetail page",
+    "defaultMessage": "Result"
+  },
+  {
+    "id": "app.surveyDetail.previewQuestionnaire",
+    "description": "Preview Questionnaire in surveyDetail page",
+    "defaultMessage": "Preview Questionnaire"
+  }
+]

@@ -1,0 +1,91 @@
+@import (reference) "../../../../styles/variables/index.less";
+@import "./style.less";
+
+.m {
+  .care-coach-program {
+    height: 100%;
+    min-height: calc(100% - @40px);
+    background-color: var(--silver-10);
+    padding: 16px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .program-heading-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 6px;
+      .heading {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+      .select {
+        margin-top: 6px;
+        width: 100%;
+        height: 40px;
+        &.ant-select {
+          &.ant-select-enabled {
+            height: @40px !important;
+            .ant-select-selection {
+              background-color: rgba(212, 215, 217, 0.3) !important;
+              border: 0 !important;
+              box-shadow: none;
+              &.ant-select-selection--single {
+                height: @40px !important;
+                .ant-select-selection__rendered {
+                  .ant-select-selection-selected-value {
+                    font-family: @MediumFont !important;
+                    font-size: @14px !important;
+                  }
+                }
+                .ant-select-arrow {
+                  top: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .program-body-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 6px;
+      flex-wrap: wrap;
+      .tab-title {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        flex-wrap: wrap;
+        margin: 0;
+        .ant-tabs-bar {
+          &.ant-tabs-top-bar {
+            margin-bottom: 0;
+            .ant-tabs-tab-active {
+              &.ant-tabs-tab {
+                border-bottom: 4px solid @dark;
+                color: @dark;
+                ::selection {
+                  background: @dark;
+                }
+              }
+            }
+            .ant-tabs-ink-bar {
+              background-color: @dark;
+            }
+          }
+        }
+        .ant-tabs-tabpane {
+          &.ant-tabs-tabpane-active {
+            &.tabscontent {
+              flex-wrap: wrap;
+            }
+          }
+        }
+      }
+    }
+  }
+}

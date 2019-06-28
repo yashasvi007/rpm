@@ -1,0 +1,472 @@
+@import "../../../styles/variables/index.less";
+
+.m {
+  .patient-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 64px;
+    height: calc(100vh - 64px);
+    width: 100%;
+    justify-content: space-between;
+    background-color: @white;
+    .patient-details-body {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+      overflow-y: auto;
+      .profile-info {
+        display: flex;
+        flex-direction: column;
+        padding: 16px 16px 0 16px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        .profile-brief {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          margin-bottom: 4px;
+          .display-picture {
+            height: 64px;
+            width: 64px;
+            margin-right: 8px;
+          }
+          .brief-section {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            margin-left: 8px;
+            height: auto;
+            .main-text {
+              margin-bottom: 2px;
+            }
+            .chief-complaint {
+              margin-bottom: 4px;
+            }
+            .address {
+              color: @steel-grey;
+            }
+          }
+        }
+        .view-profile-button {
+          margin-top: 4px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 40px;
+          z-index: 25;
+          background-color: @ice-blue;
+        }
+      }
+    }
+    .patient-details-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      .appointment-history-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+        z-index: 25;
+        background-color: @ice-blue;
+      }
+      .menu-selection {
+        height: 40px;
+        width: 100%;
+        z-index: 25;
+        background-color: @silver;
+      }
+      .nav-bar {
+        display: flex;
+        flex-direction: row;
+        padding: 16px;
+        height: 72px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 25;
+        border: solid 1px @silver;
+        background-color: @white;
+        .nav-bar-left {
+          display: flex;
+          flex-direction: row;
+          //flex-grow: 1;
+          align-items: center;
+          margin-right: 16px;
+          min-width: 70px;
+          .arrow-wrapper {
+            font-size: 24px;
+            margin-right: 16px;
+          }
+          .text {
+            font-size: @12px;
+            color: @dark;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+          }
+        }
+        .nav-bar-right {
+          display: flex;
+          align-items: center;
+          //flex-grow: 1;
+          justify-content: flex-end;
+          min-width: 70px;
+          .button-text {
+            font-size: 18px;
+            margin-right: 4px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+}
+
+.patient-profile {
+  margin-bottom: @32px;
+  .inactive-patient {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+  .Detail {
+    border-right: 1px solid @silver;
+    // height: 100%;
+  }
+  .Appointments-History {
+    border-left: 1px solid @silver;
+    height: 100%;
+    margin-left: -1px; //overlapping calendar border
+  }
+  .Calender {
+    height: 100%;
+  }
+  .profile {
+    margin-top: 60px;
+    height: 100%;
+  }
+  .medication-details {
+    margin-right: 48px;
+  }
+  .clinical-reading-detail {
+    margin-right: 48px;
+  }
+  .license {
+    background-color: @ice-blue;
+    height: @24px;
+    border-radius: @12px;
+    width: fit-content;
+  }
+  .profile-detail {
+    padding-top: @72px;
+  }
+  .profileHead {
+    height: 72px;
+    border-bottom: 1px solid @silver;
+    position: fixed;
+    width: 100%;
+    background: @white;
+    z-index: 2;
+  }
+  .backButton {
+    padding: 0 24px;
+  }
+  .MenuOption {
+    position: absolute;
+    top: 25px;
+    left: 42%;
+  }
+  .previousLocation {
+    font-size: 12px;
+  }
+  .UpdateBasics {
+    margin: 16px 16px;
+    height: 40px;
+    border-radius: 4px;
+  }
+  .UpdateBasics .ant-btn {
+    height: 40px;
+    border-radius: 4px;
+  }
+  .patientDetail {
+    padding: @16px;
+    width: 100%;
+  }
+  .enrolledon {
+    color: @subdued;
+  }
+  .patientDp {
+    width: @100px;
+    height: @100px;
+    margin-bottom: @16px;
+  }
+  .imageandButton {
+    margin-top: @16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .editProfile.ant-btn {
+    width: 126px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: @silver-30;
+    margin-bottom: @16px;
+    border: 0;
+  }
+  .disease {
+    color: @dark;
+    font-family: @DemiMediumFont;
+    max-width: 100%;
+  }
+  .name {
+    margin-top: @8px;
+    color: @dark;
+  }
+  .address {
+    color: @label-color;
+    max-width: 100%;
+  }
+  .concent {
+    color: @dark;
+  }
+  .document-verification {
+    cursor: pointer;
+    pointer-events: auto;
+  }
+  .document-verification-disabled {
+    cursor: not-allowed;
+  }
+  .horizontalLine {
+    height: @2px;
+    background: #00000012;
+    margin-top: @16px;
+    margin-bottom: @16px;
+  }
+  .verified {
+    font-size: @12px;
+    color: @grass;
+  }
+  .notVerified {
+    font-size: @12px;
+    color: @orangered;
+  }
+  .verifiedImg {
+    width: @14px;
+    height: @14px;
+  }
+  .insurance {
+    margin-top: @24px;
+    color: @dark;
+    font-size: @18px;
+    font-family: @DemiMediumFont;
+  }
+  .insuranceData {
+    margin-top: @16px;
+    margin-bottom: @8px;
+    color: @label-color;
+    font-size: @12px;
+  }
+  .contact {
+    font-size: @18px;
+    font-family: @DemiMediumFont;
+    color: @dark;
+    margin-top: @40px;
+  }
+
+  .personal {
+    font-size: @16px;
+    font-family: @DemiMediumFont;
+    color: @dark;
+    margin-top: @16px;
+    margin-bottom: @8px;
+  }
+  .contact-icon-mail {
+    width: @16px;
+    height: @12px;
+    margin-right: @9px;
+  }
+  .contact-icon-call {
+    width: @16px;
+    height: @16px;
+    margin-right: @9px;
+  }
+  .contact-detail {
+    font-size: @14px;
+    color: @dark;
+  }
+  .others {
+    margin-top: @32px;
+    margin-bottom: @16px;
+    font-size: @16px;
+    color: @dark;
+    font-family: @DemiMediumFont;
+  }
+  .othersDataTitle {
+    font-size: @12px;
+    color: @label-color;
+  }
+  .others-call-icon {
+    width: @24px;
+    height: @24px;
+  }
+  .doctorDp {
+    width: 40px;
+    height: 40px;
+  }
+  .DoctorName {
+    font-size: @18px;
+    font-family: @DemiMediumFont;
+  }
+  .doctorCard {
+    width: 100%;
+    padding-bottom: @16px;
+    border: 1px solid @silver;
+    padding: 10px;
+  }
+  .dischage {
+    display: flex;
+    justify-content: center;
+  }
+  .basic {
+    margin: 0 @24px @24px @24px;
+  }
+  .basicInfo {
+    width: 158px;
+  }
+  .basicField {
+    margin-bottom: @16px;
+  }
+  .vital {
+    margin: 0 @24px @24px @24px;
+  }
+  .vitalInfo {
+    width: @156px;
+  }
+  .medication {
+    margin: 0 @24px @24px @24px;
+  }
+  .clinicalReading {
+    margin: 0 @24px @24px @24px;
+  }
+  .how-often .ant-select-selection .ant-select-arrow .ant-select-arrow-icon {
+    margin-top: -6px;
+  }
+
+  .adverse-event-table {
+    .ant-table-small
+      > .ant-table-content
+      > .ant-table-body
+      > table
+      > .ant-table-thead
+      > tr
+      > th {
+      background-color: rgba(@pure-black, 0.02);
+      border-bottom: none;
+      width: 25%;
+      text-align: left;
+    }
+
+    .ant-table-small
+      > .ant-table-content
+      > .ant-table-body
+      > table
+      > .ant-table-tbody
+      > tr
+      > td {
+      text-align: left;
+    }
+
+    // .ant-table-pagination.ant-pagination {
+    //   display: none;
+    // }
+
+    .ant-table,
+    .ant-table-small {
+      color: black;
+      border: none;
+
+      .ant-table-body {
+        margin: 0;
+      }
+      td,
+      th {
+        text-align: center;
+        border: none;
+      }
+
+      td:nth-child(1),
+      th:nth-child(1) {
+        text-align: left;
+      }
+    }
+
+    .ant-table-thead div {
+      color: #7f888d;
+    }
+    .description {
+      max-width: @185px;
+      word-wrap: break-word;
+    }
+  }
+}
+#root {
+  .dischageButton.ant-btn-background-ghost {
+    border: solid 1px @orangered !important;
+    color: @orangered !important;
+  }
+  .ant-input.BasicInput {
+    max-width: 500px;
+  }
+  .BasicInput {
+    max-width: 500px;
+  }
+  .medicalTabs .ant-tabs-bar .ant-tabs-nav-container {
+    .ant-tabs-nav .ant-tabs-ink-bar {
+      background-color: @dark;
+      height: @4px;
+    }
+  }
+  .medicalTabs .ant-tabs-bar .ant-tabs-nav-container {
+    .ant-tabs-nav .ant-tabs-tab-active {
+      color: @dark;
+    }
+  }
+
+  .medicalTabs .ant-tabs-bar .ant-tabs-nav-container {
+    .ant-tabs-nav .ant-tabs-tab:hover {
+      color: @dark;
+    }
+  }
+  .medicalTabs .ant-tabs-bar .ant-tabs-nav-container {
+    .ant-tabs-nav .ant-tabs-tab-active:hover {
+      color: @dark;
+    }
+  }
+}
+
+.profile-success-msg {
+  top: 125px;
+  bottom: 0px;
+}
+.tag-edit {
+  padding: 5px;
+  background: @silver-30;
+}
+.medication-horizontal-line {
+  height: @2px;
+  background: @silver-30;
+  margin-bottom: @16px;
+}
+
+.adverse-event-image-link {
+  text-decoration: underline;
+  cursor: pointer;
+}

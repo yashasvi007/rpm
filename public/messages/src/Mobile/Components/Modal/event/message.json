@@ -1,0 +1,227 @@
+[
+  {
+    "id": "app.event.schedule",
+    "description": "",
+    "defaultMessage": "Schedule New"
+  },
+  {
+    "id": "app.event.cancel",
+    "description": "",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "app.event.addAppointment",
+    "description": "",
+    "defaultMessage": "Add Appointment"
+  },
+  {
+    "id": "app.event.addReminder",
+    "description": "",
+    "defaultMessage": "Add Reminder"
+  },
+  {
+    "id": "app.event.chooseWhen",
+    "description": "",
+    "defaultMessage": "Choose When"
+  },
+  {
+    "id": "add.event.appointment",
+    "description": "",
+    "defaultMessage": "Appointment"
+  },
+  {
+    "id": "add.event.reminder",
+    "description": "",
+    "defaultMessage": "Reminder"
+  },
+  {
+    "id": "app.event.reminderTitle",
+    "description": "",
+    "defaultMessage": "Reminder Title"
+  },
+  {
+    "id": "app.event.reminderalongwith",
+    "description": "",
+    "defaultMessage": "Tag a patient or a doctor"
+  },
+  {
+    "id": "app.event.appointmentAlongWithLabel",
+    "description": "",
+    "defaultMessage": "Appointment with"
+  },
+  {
+    "id": "app.event.reminderAlongWithLabel",
+    "description": "",
+    "defaultMessage": "Reminder with"
+  },
+  {
+    "id": "app.event.doesNotRepeat",
+    "description": "",
+    "defaultMessage": "Does not repeat"
+  },
+  {
+    "id": "app.event.repeatsDaily",
+    "description": "",
+    "defaultMessage": "Repeats Daily"
+  },
+  {
+    "id": "app.event.repeatsWeekly",
+    "description": "",
+    "defaultMessage": "Repeats Weekly"
+  },
+  {
+    "id": "add.event.repeatsMonthly",
+    "description": "",
+    "defaultMessage": "Repeats Monthly"
+  },
+  {
+    "id": "add.event.repeatsYearly",
+    "description": "",
+    "defaultMessage": "Repeats Yearly"
+  },
+  {
+    "id": "add.event.appointmentType",
+    "description": "",
+    "defaultMessage": "Appointment Type"
+  },
+  {
+    "id": "add.event.repeatIntervalError",
+    "description": "",
+    "defaultMessage": "Repeat Interval is required"
+  },
+  {
+    "id": "add.event.activity",
+    "description": "",
+    "defaultMessage": "Activity"
+  },
+  {
+    "id": "app.event.followup",
+    "description": "",
+    "defaultMessage": "Follow Up"
+  },
+  {
+    "id": "add.event.medication",
+    "description": "",
+    "defaultMessage": "Medication"
+  },
+  {
+    "id": "add.event.materialDelivery",
+    "description": "",
+    "defaultMessage": "Material Delivery"
+  },
+  {
+    "id": "app.event.visit",
+    "description": "",
+    "defaultMessage": "Visit"
+  },
+  {
+    "id": "add.event.call",
+    "description": "",
+    "defaultMessage": "Phone Call"
+  },
+  {
+    "id": "add.event.textEmail",
+    "description": "",
+    "defaultMessage": "Video Call"
+  },
+  {
+    "id": "app.event.from",
+    "description": "",
+    "defaultMessage": "From"
+  },
+  {
+    "id": "add.event.till",
+    "description": "",
+    "defaultMessage": "Till"
+  },
+  {
+    "id": "add.event.on",
+    "description": "",
+    "defaultMessage": "On"
+  },
+  {
+    "id": "app.event.at",
+    "description": "",
+    "defaultMessage": "At"
+  },
+  {
+    "id": "add.event.repeatsOn",
+    "description": "",
+    "defaultMessage": "Repeats on:"
+  },
+  {
+    "id": "add.event.notes",
+    "description": "",
+    "defaultMessage": "Write notes (optional)"
+  },
+  {
+    "id": "cancel.event.calendarCard",
+    "description": "",
+    "defaultMessage": "Cancel Appointment"
+  },
+  {
+    "id": "cancel.event.Reminder",
+    "description": "",
+    "defaultMessage": "Cancel Reminder"
+  },
+  {
+    "id": "cancel.all.event.calendarCard",
+    "description": "",
+    "defaultMessage": "Go Back"
+  },
+  {
+    "id": "cancel.modal.contentAppt",
+    "description": "",
+    "defaultMessage": "Please note that appointments once cancelled cannot be undone you may have to add new appointment in case you wanted to add similar appointment later."
+  },
+  {
+    "id": "cancel.modal.messageAppt",
+    "description": "",
+    "defaultMessage": "Are you sure you want to cancel the appointment?"
+  },
+  {
+    "id": "cancel.modal.contentRem",
+    "description": "",
+    "defaultMessage": "Please note that reminders once cancelled cannot be undone you may have to add new reminder in case you wanted to add similar reminder later."
+  },
+  {
+    "id": "cancel.modal.messageRem",
+    "description": "",
+    "defaultMessage": "Are you sure you want to cancel the reminder?"
+  },
+  {
+    "id": "cancel.modal.alert",
+    "description": "",
+    "defaultMessage": "This action cannot be undone. For help, contact program admin"
+  },
+  {
+    "id": "cancel.modal.buttonCancelThisOnly",
+    "description": "",
+    "defaultMessage": "Cancel This Only"
+  },
+  {
+    "id": "cancel.modal.buttonCancelAll",
+    "description": "",
+    "defaultMessage": "Cancel All"
+  },
+  {
+    "id": "add.event.remindCareCoach",
+    "description": "",
+    "defaultMessage": "Remind my Care Coach also"
+  },
+  {
+    "id": "event.modal.forPatientApptType",
+    "description": "",
+    "defaultMessage": "Follow Up appointment"
+  },
+  {
+    "id": "add.event.econsulting",
+    "description": "",
+    "defaultMessage": "Online Video Call(E-consultation)"
+  },
+  {
+    "id": "cancel.modal.reason",
+    "description": "",
+    "defaultMessage": "Write reason for cancelling this appointment"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "app.historical-medication-data.close",
+    "description": "",
+    "defaultMessage": "Close"
+  },
+  {
+    "id": "app.historical-medication-data.download_csv",
+    "description": "",
+    "defaultMessage": "Download CSV"
+  },
+  {
+    "id": "app.historical-medication-data.historical_medication_data",
+    "description": "",
+    "defaultMessage": "Historical Medication Data"
+  }
+]

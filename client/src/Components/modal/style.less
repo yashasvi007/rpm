@@ -1,0 +1,626 @@
+@import (reference) "../../styles/variables/index.less";
+
+.global-modal {
+  &.event-modal {
+    .ant-modal .ant-modal-content {
+      height: 100%;
+    }
+    .ant-modal-body {
+      overflow: auto;
+    }
+    .error {
+      width: 94%;
+      top: unset;
+      left: unset;
+      bottom: 72px;
+    }
+  }
+  &.full-height {
+    .ant-modal .ant-modal-content {
+      height: 100%;
+
+      .ant-modal-body {
+        padding: 0;
+      }
+    }
+  }
+  .adverse-event-error {
+    width: 620px;
+    left: unset;
+    bottom: 72px;
+  }
+
+  .adverse-event-form {
+    overflow: auto;
+    height: 100%;
+  }
+
+  .doc-preview {
+    margin-top: -72px;
+  }
+
+  .alert {
+    position: absolute;
+    bottom: 88px;
+  }
+
+  height: auto;
+
+  .ant-modal {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: -24px;
+    overflow: hidden;
+
+    .ant-radio-button-wrapper {
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      > span {
+        font-size: 14px;
+        color: @dark;
+        font-family: @MediumFont;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .ant-radio-button-wrapper-checked {
+      > span {
+        color: @white;
+      }
+    }
+
+    .ant-select-arrow {
+      margin-top: -12px;
+    }
+
+    .ant-select-selection-selected-value {
+      color: @dark;
+      font-family: @MediumFont;
+    }
+
+    .event-group-btn {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .ant-modal-close {
+      left: 0;
+
+      .anticon > svg {
+        font-size: 24px;
+        color: @dark;
+        margin-top: 14px;
+      }
+    }
+
+    .ant-modal-header {
+      border-bottom: none;
+    }
+
+    .ant-modal-title {
+      margin-left: 24px;
+      color: @dark;
+      font-size: @18px;
+      font-family: @DemiMediumFont;
+    }
+
+    .ant-modal-content {
+      border-radius: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .ant-modal-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        background: @white;
+
+        .main_content_holder {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .footer {
+          position: fixed;
+          bottom: 0px;
+          right: 0;
+          left: 6%;
+          height: 72px;
+          background: @white;
+          border-top: 1px solid @silver;
+          z-index: 1001;
+          width: auto;
+          .ant-row {
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    .ant-modal-footer {
+      padding: 0;
+      z-index: 1;
+      background-color: white;
+    }
+
+    .iqvia-btn {
+      font-family: @MediumFont;
+
+      &.cancel {
+        color: @primary-color;
+        background-color: @white;
+        border-color: @primary-color;
+      }
+
+      &.cancel:hover {
+        border-color: rgba(@primary-color, 0.8);
+        color: rgba(@primary-color, 0.8);
+      }
+
+      &.warning {
+        color: @white;
+        background-color: @warning-color;
+        border-color: @warning-color;
+      }
+
+      &.warning:hover {
+        background-color: rgba(@warning-color, 0.8);
+        border-color: rgba(@warning-color, 0.8);
+        color: @white;
+      }
+      &.warning-all-button {
+        background-color: @white;
+        color: @warning-color;
+        border-color: @warning-color;
+      }
+      &.warning-all-button:hover {
+        background-color: @white;
+        color: rgba(@warning-color, 0.8);
+        border-color: rgba(@warning-color, 0.8);
+      }
+
+      &.upload {
+        background-color: rgba(@silver, 0.3);
+        border-color: transparent;
+      }
+
+      &.upload:hover {
+        background-color: rgba(@silver, 0.8);
+        border-color: transparent;
+        color: @pure-black;
+      }
+    }
+  }
+
+  .clinical-reading-form {
+    overflow: auto;
+  }
+
+  .event-form {
+    padding-bottom: 72px;
+
+    .radio-group-tab {
+      display: flex;
+    }
+
+    .ant-form-item-label > label {
+      font-size: 12px;
+    }
+
+    .repeat-interval {
+      .ant-form-item-children {
+        display: flex;
+      }
+
+      .ant-input-number-handler-wrap {
+        display: none;
+      }
+
+      .repeat-type {
+        position: absolute;
+        right: 8px;
+        top: 23px;
+        color: @steel-grey;
+      }
+    }
+
+    .user-select {
+      .ant-select-selection-selected-value {
+        margin-top: 5px;
+      }
+    }
+
+    .ant-tag-checkable:not(.ant-tag-checkable-checked):hover {
+      background-color: @dark;
+      color: @white;
+    }
+
+    .select-days {
+      border-radius: 4px;
+      border: 1px solid @cool-grey;
+      height: 40px;
+    }
+
+    .ant-tag-checkable {
+      background-color: transparent;
+      border-color: transparent;
+      margin: 0;
+      border: none;
+      border-radius: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: @MediumFont !important;
+
+      &.ant-tag-checkable-checked {
+        background-color: @dark;
+        color: @white;
+      }
+    }
+
+    .ant-time-picker-icon {
+      display: none;
+    }
+
+    .ant-radio-button-wrapper {
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .date-picker {
+      .ant-form-item-children {
+        display: flex;
+      }
+    }
+  }
+
+  .calendar-section {
+    height: 100%;
+    width: 50%;
+    margin-left: 24px;
+
+    &.disabled {
+      .mask {
+        background-color: @white;
+        position: absolute;
+        left: 50%;
+        right: 0;
+        top: 55px;
+        bottom: 10px;
+        opacity: 0.1;
+        z-index: 2;
+      }
+      .fc-axis {
+        &.fc-widget-content {
+          opacity: 0.5;
+        }
+      }
+
+      .calendar-toolbar {
+        opacity: 0.5;
+      }
+    }
+    .header {
+      height: 45px;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .calendar-toolbar {
+      height: 40px;
+      background-color: rgba(212, 215, 217, 0.1);
+
+      .date-picker {
+        height: 32px;
+
+        .ant-calendar-picker-input {
+          &.ant-input {
+            height: 32px;
+            width: 146px;
+          }
+        }
+      }
+    }
+
+    .fc-time-grid-event.fc-allow-mouse-resize {
+      .fc-resizer {
+        &:after {
+          color: @deep-sea-blue;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .fc-event {
+      //need important here because fullcalendar apply inline styling at run time
+      left: 0 !important;
+      right: 0 !important;
+      margin-right: 0 !important;
+      border-color: none;
+      &.current {
+        border: 1px solid;
+        border-color: @deep-sea-blue;
+        z-index: 4 !important;
+        .fc-bg {
+          background-color: @light-blue-grey;
+        }
+      }
+      &.booked {
+        border: 1px solid;
+        border-color: @silver;
+        .fc-bg {
+          background: repeating-linear-gradient(
+            45deg,
+            @white 9px,
+            @white 11px,
+            @silver 14px,
+            @silver 12px
+          );
+        }
+      }
+    }
+
+    .fc-event .fc-content {
+      .fc-time {
+        display: none;
+      }
+    }
+
+    .fc-event .fc-bg {
+      opacity: 1;
+    }
+
+    .fc-axis {
+      &.fc-widget-content {
+        background-color: @silver-10;
+      }
+
+      text-align: center;
+      font-size: 12px;
+      font-family: @MediumFont;
+    }
+
+    .fc-toolbar.fc-header-toolbar {
+      display: none;
+    }
+
+    .fc-widget-content {
+      background-color: @white;
+    }
+
+    .fc-divider.fc-widget-header {
+      display: none;
+    }
+
+    .fc-view.fc-agendaDay-view.fc-agenda-view {
+      .fc-day-grid {
+        display: none;
+      }
+
+      > table {
+        > thead.fc-head {
+          display: none;
+        }
+      }
+    }
+  }
+  .document-verification-modal {
+    .ant-modal-content {
+      min-height: 100%;
+      .ant-modal-footer {
+        padding: 0;
+        background-color: white;
+        position: fixed;
+        right: 12px;
+        bottom: 0;
+        width: 988px;
+        background: white;
+        float: right;
+        z-index: 2;
+      }
+    }
+    // .ant-modal-content {
+    //   .ant-modal-body {
+    //     height: auto;
+    //     padding: 40px;
+    //     width: 100%;
+    //   }
+    // }
+    .document-modal {
+      height: auto;
+      padding: 40px;
+      width: 100%;
+      overflow: hidden;
+      .ant-menu-item {
+        color: @subdued;
+        font-family: @MediumFont;
+        > a {
+          color: @subdued;
+        }
+        padding: 1px 10px;
+      }
+      .ant-menu-item.ant-menu-item-active {
+        border-bottom: 2px solid @dark;
+        > a {
+          color: @dark;
+        }
+      }
+      .ant-menu-item-selected {
+        border-bottom: 2px solid @dark;
+        color: @dark;
+        &:hover {
+          border-bottom: 2px solid @dark;
+          color: @dark;
+        }
+        > a {
+          color: @dark;
+
+          &:hover {
+            color: @dark;
+          }
+        }
+      }
+
+      .main-iqvia-container {
+        &.consent-document-viewer {
+          width: 100%;
+          #document-gallery {
+            margin-top: 32px;
+            width: 100%;
+            position: relative;
+            height: 400px;
+          }
+          #document-gallery .document-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 50px;
+            overflow: hidden;
+            //width: 100%;
+            //height: 100%;
+            .iv-snap-view {
+              display: none;
+            }
+          }
+          .pdf-viewer {
+            width: 100%;
+            height: 100%;
+            .page-number {
+              height: 60px;
+              margin: 10px 10px 10px 0px;
+              align-items: center;
+              justify-content: flex-end;
+              bottom: 72px;
+              display: flex;
+              flex-direction: row;
+              .text {
+                padding: 10px 10px 0px 10px;
+              }
+            }
+            .padding-10 {
+              padding: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.history-table {
+  .ant-table,
+  .ant-table-small {
+    color: black;
+    border: none;
+
+    td,
+    th {
+      text-align: center;
+      border: none;
+    }
+
+    td:nth-child(1),
+    th:nth-child(1) {
+      text-align: left;
+    }
+  }
+
+  .ant-table-thead div,
+  .ant-table-tbody tr:nth-child(1) {
+    color: #7f888d;
+  }
+
+  .ant-table-thead > tr {
+    background-color: #fafafa;
+    border: none;
+    box-shadow: none;
+  }
+
+  .ant-table-tbody > tr > td {
+    border: none;
+  }
+
+  .ant-table-small
+    > .ant-table-content
+    > .ant-table-body
+    > table
+    > .ant-table-thead
+    > tr
+    > th {
+    border: none;
+  }
+}
+
+.test-tabs {
+  .ant-tabs-nav .ant-tabs-tab-active {
+    color: #75888d;
+    font-weight: 500;
+  }
+
+  .ant-tabs-nav .ant-tabs-ink-bar {
+    background-color: #2b3a42;
+  }
+}
+
+.medication-table {
+  .ant-table,
+  .ant-table-small {
+    color: black;
+    border: none;
+    box-shadow: none;
+
+    td,
+    th {
+      text-align: center;
+      box-shadow: none;
+      border: none;
+    }
+  }
+
+  .ant-table-thead div {
+    color: #7f888d;
+  }
+
+  .ant-table-thead > tr {
+    background-color: #fafafa;
+    border: none;
+    box-shadow: none;
+  }
+
+  .ant-table-tbody > tr > td {
+    border: none;
+    box-shadow: none;
+  }
+
+  .ant-table-small
+    > .ant-table-content
+    > .ant-table-body
+    > table
+    > .ant-table-thead
+    > tr
+    > th {
+    border: none;
+    box-shadow: none;
+  }
+}
+
+#iv-container {
+  display: none;
+}

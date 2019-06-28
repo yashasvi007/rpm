@@ -1,0 +1,37 @@
+@import "../../../styles/variables/index.less";
+.m {
+  .surveys {
+    position: fixed;
+    top: 63px;
+    width: 960px;
+    margin: 0 240px;
+
+    .tabstitle .ant-tabs-bar .ant-tabs-nav-container {
+      .ant-tabs-nav .ant-tabs-ink-bar {
+        background-color: @dark;
+        height: @4px;
+      }
+    }
+
+    .tabstitle .ant-tabs-bar .ant-tabs-nav-container {
+      .ant-tabs-nav .ant-tabs-tab-active {
+        color: @dark;
+      }
+    }
+
+    .tabstitle .ant-tabs-bar .ant-tabs-nav-container {
+      .ant-tabs-nav .ant-tabs-tab:hover {
+        color: @dark;
+      }
+    }
+    .tabstitle .ant-tabs-bar .ant-tabs-nav-container {
+      .ant-tabs-nav .ant-tabs-tab-active:hover {
+        color: @dark;
+      }
+    }
+  }
+
+  .card-content {
+    padding: 16px;
+  }
+}

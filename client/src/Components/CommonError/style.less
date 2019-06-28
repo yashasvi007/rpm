@@ -1,0 +1,77 @@
+@import "../../styles/variables/index.less";
+
+.ant-btn.got-it-btn {
+  float: right;
+  height: 32px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgba(212, 215, 217, 0.3);
+
+  > div > img {
+    height: 12px;
+    width: 12px;
+    padding-right: 4px;
+    margin-bottom: 2px;
+  }
+}
+
+.ant-btn.got-it-btn:hover {
+  background-color: rgba(212, 215, 217, 0.8);
+}
+
+@keyframes hide-animation {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@media (min-width: @desktop-min) {
+  .iqvia-error {
+    animation: hide-animation 10s ease-out 0s;
+    animation-fill-mode: forwards;
+    position: fixed;
+    top: 130px;
+    left: 0;
+    right: 0;
+    background-color: #fff8f5;
+  }
+  .iqvia-error.top60 {
+    top: 60px !important;
+  }
+}
+
+@media (max-width: @tablet-9-max) and (min-width: @tablet-9-min) {
+  .iqvia-error {
+    position: fixed;
+    bottom: 108px;
+    left: 0;
+    right: 0;
+    background-color: #fff8f5;
+  }
+}
+
+@media (max-width: @tablet-7-max) and (min-width: @tablet-7-min) {
+  .iqvia-error {
+    position: fixed;
+    bottom: 108px;
+    left: 0;
+    right: 0;
+    background-color: #fff8f5;
+  }
+}
+
+@media (max-width: @mobile-max) {
+  .iqvia-error {
+    position: fixed;
+    bottom: 108px;
+    left: 0;
+    right: 0;
+    background-color: #fff8f5;
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "app.patientSurvey.thanksfortakingsurvey",
+    "description": "Thanks for taking survey in patientSurvey page after completion",
+    "defaultMessage": "Thanks for taking survey"
+  },
+  {
+    "id": "app.patientSurvey.redirectingtoDashboardin",
+    "description": "Redirecting to Dashboard in  patientSurvey page after completion",
+    "defaultMessage": "Redirecting to Dashboard in"
+  },
+  {
+    "id": "app.patientSurvey.seconds",
+    "description": "seconds in patientSurvey page",
+    "defaultMessage": "seconds"
+  },
+  {
+    "id": "app.patientSurvey.questions",
+    "description": "questions in patientSurvey page",
+    "defaultMessage": "Questions"
+  },
+  {
+    "id": "app.patientSurvey.toComplete",
+    "description": "toComplete in patientSurvey page",
+    "defaultMessage": "to complete"
+  },
+  {
+    "id": "app.patientSurvey.prev",
+    "description": "prev in patientSurvey page",
+    "defaultMessage": "prev"
+  },
+  {
+    "id": "app.patientSurvey.next",
+    "description": "next in patientSurvey page",
+    "defaultMessage": "next"
+  },
+  {
+    "id": "app.patientSurvey.completeSurvey",
+    "description": "completeSurvey in patientSurvey page",
+    "defaultMessage": "Complete Survey"
+  }
+]

@@ -1,0 +1,256 @@
+@import "../../../styles/variables/index.less";
+
+.appointment-header {
+  width: 100%;
+  height: auto;
+  //min-height: fit-content;
+  margin-top: 40px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .header-title {
+    font-family: @DemiMediumFont;
+    color: @dark;
+    font-size: 22px;
+    font-weight: 600;
+    //line-height: normal;
+    height: 30px;
+  }
+}
+.header-sub-title {
+  font-family: @DemiMediumFont;
+  color: @dark;
+  font-size: 14px;
+  font-weight: 500;
+  //height: 30px;
+  //line-height: normal;
+  text-align: right;
+  //display: flex;
+  //align-items: center;
+  margin-right: 8px;
+  text-decoration: underline;
+  &.invisible {
+    display: none;
+  }
+}
+
+.dashboard-days {
+  height: 16px;
+  font-size: 12px;
+  line-height: normal;
+  width: 90%;
+  margin: 0 auto;
+  color: @steel-grey;
+  font-family: @RegularFont;
+}
+.dashboard-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.date-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 8px;
+  color: @steel-grey;
+  font-stretch: normal;
+  .today {
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    justify-content: space-between;
+  }
+}
+.date-section {
+  display: flex;
+  flex-direction: inherit;
+  margin-top: 8px;
+  height: 24px;
+  .dashboard-dates {
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    align-items: center;
+    .dashboard-icons {
+      width: 5%;
+    }
+    .dates-row {
+      display: flex;
+      width: 90%;
+      color: @dark;
+      font-family: @MediumFont;
+      align-items: center;
+      justify-content: space-around;
+      height: 100%;
+      .week-dates {
+        width: 32px;
+        height: 32px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        &.isSelected {
+          background-color: @dark;
+          color: white;
+          border-radius: 50%;
+        }
+        &.isFadeSelected {
+          background-color: #007a97;
+          //background-color: #0055978f;
+          color: white;
+          border-radius: 50%;
+          z-index: 1;
+        }
+      }
+    }
+  }
+}
+
+.card-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.pointer {
+  cursor: default;
+}
+
+.dots-wrapper {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-evenly;
+  height: auto;
+  margin: 0 auto;
+  .week-dots {
+    width: 100%;
+    height: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    &.isSelected {
+      background-color: @dark;
+      color: white;
+      border-radius: 50%;
+    }
+    &.isFadeSelected {
+      background-color: #0055978f;
+      color: white;
+      border-radius: 50%;
+    }
+  }
+}
+
+.reminder-menu {
+  margin-top: 16px;
+  height: 40px;
+  margin-bottom: 8px;
+  .ant-menu-horizontal {
+    line-height: 36px !important;
+  }
+  .ant-menu-item {
+    color: @subdued;
+    font-family: @MediumFont;
+    > a {
+      color: @subdued;
+    }
+    padding: 1px 10px;
+  }
+  .ant-menu-item.ant-menu-item-active.ant-menu-item-selected {
+    border-bottom: 4px solid @dark !important;
+    &:hover {
+      border-bottom: 4px solid @dark !important;
+      color: @dark;
+    }
+    > a {
+      color: @dark;
+    }
+  }
+  .ant-menu-item.ant-menu-item {
+    &:hover {
+      border-bottom: 2px solid @dark !important;
+    }
+  }
+  .ant-menu-item-selected {
+    border-bottom: 4px solid @dark !important;
+    color: @dark;
+    &:hover {
+      border-bottom: 4px solid @dark !important;
+      color: @dark;
+    }
+    > a {
+      color: @dark;
+
+      &:hover {
+        color: @dark;
+      }
+    }
+  }
+}
+
+.line {
+  height: 1px;
+  opacity: 0.5;
+  margin-top: 4px;
+  background-color: @silver;
+  border: solid 1px @silver;
+}
+
+.survey-body {
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  width: auto;
+  .survey-card {
+    width: auto;
+    height: auto;
+    margin: 0;
+    margin-bottom: 16px;
+    min-width: -webkit-fill-available;
+    .card-content {
+      padding: 16px;
+      flex-direction: column;
+      display: flex;
+      .survey-card-header {
+        display: flex;
+        .survey-card-header-right {
+          display: flex;
+          justify-content: space-between;
+          flex-grow: 1;
+          .in-progress-container {
+            display: flex;
+            width: auto;
+            border-radius: 25px;
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 24px;
+            font-size: 12px;
+            line-height: 2;
+            &.inprogress {
+              background-color: @very-light-green;
+            }
+            &.completed {
+              background-color: @light-blue-grey;
+            }
+          }
+          .survey-header-button {
+            display: flex;
+            width: auto;
+            height: fit-content;
+            .ant-btn {
+              width: 147px;
+              height: 32px;
+              border-radius: 2px;
+            }
+          }
+        }
+
+        //justify-content: space-between;
+      }
+    }
+  }
+}

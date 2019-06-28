@@ -1,0 +1,74 @@
+@import (reference) "../../../styles/variables/index.less";
+@import "./style.less";
+.CarecoachDashboard-program {
+  height: fit-content;
+  min-height: calc(100vh - @40px);
+  background-color: var(--silver-10);
+  padding: 0 248px;
+  justify-content: center;
+  display: flex;
+}
+
+.program-body {
+  height: fit-content;
+  //width: calc(100vw - @248px - @248px);
+}
+
+.row1-right {
+  .ant-select {
+    width: @249px !important;
+    height: @40px !important;
+    .ant-select-selection {
+      background-color: rgba(212, 215, 217, 0.3) !important;
+      border: 0px !important;
+      box-shadow: none;
+      border: 0;
+    }
+    .ant-select-selection--single {
+      height: @40px !important;
+      .ant-select-selection__rendered {
+        .ant-select-selection-selected-value {
+          font-family: @MediumFont !important;
+          font-size: @14px !important;
+        }
+      }
+    }
+  }
+}
+
+.program-body-row1 {
+  width: 100%;
+}
+
+.row1-right {
+  .flex() !important;
+  .flex-direction(row);
+  .flex-justify(flex-end);
+}
+
+.row1-left {
+  .flex() !important;
+  .flex-direction(row);
+  .flex-direction(row);
+  .flex-justify(flex-start);
+}
+
+.dashboard-heading {
+  width: 99px;
+  height: 30px;
+  font-family: @RegularFont;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2b3a42;
+}
+
+.program-body-row2 {
+  width: 100%;
+  .tabstitle {
+    //width: 100%;
+  }
+}

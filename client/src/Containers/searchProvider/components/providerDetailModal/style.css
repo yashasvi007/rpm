@@ -1,0 +1,26 @@
+.providerModalBodyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+}
+
+.providerDetailImageContainer {
+  height: 200px;
+  width: 200px;
+  box-shadow: 2px 2px 2px 2px gray;
+  margin: 0 0 0 0 !important;
+}
+
+.providerModalBodyLine1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.providerModalBodyLine2 {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}

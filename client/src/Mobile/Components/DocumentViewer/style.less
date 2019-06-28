@@ -1,0 +1,55 @@
+#root {
+  .ant-btn.prev[disabled],
+  .ant-btn.next[disabled] {
+    color: rgba(0, 0, 0, 0.25);
+    background-color: #f5f5f5;
+    border: transparent;
+  }
+
+  #document-gallery {
+    margin-top: 32px;
+    width: 100%;
+    position: relative;
+    height: 400px;
+  }
+  #document-gallery .document-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+  }
+  #document-gallery .prev,
+  #document-gallery .next {
+    position: absolute;
+    height: 32px;
+    margin-top: -66px;
+    top: 50%;
+  }
+  #document-gallery .prev {
+    left: 20px;
+    cursor: pointer;
+    &.hide {
+      display: none;
+    }
+  }
+  #document-gallery .next {
+    right: 20px;
+    cursor: pointer;
+    &.hide {
+      display: none;
+    }
+  }
+  #document-gallery .footer-info {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    border-top: 1px solid #fff;
+  }
+}

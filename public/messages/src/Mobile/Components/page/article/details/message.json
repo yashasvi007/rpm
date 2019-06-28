@@ -1,0 +1,27 @@
+[
+  {
+    "id": "app.articles-details-dashboard",
+    "description": "",
+    "defaultMessage": "Dashboard"
+  },
+  {
+    "id": "app.articles-details-all",
+    "description": "",
+    "defaultMessage": "All Articles"
+  },
+  {
+    "id": "app.articles-details-sharedWith",
+    "description": "heading",
+    "defaultMessage": "Shared with"
+  },
+  {
+    "id": "app.articles-details-views",
+    "description": "",
+    "defaultMessage": "Views"
+  },
+  {
+    "id": "app.articles-details-source",
+    "description": "",
+    "defaultMessage": "Source:"
+  }
+]

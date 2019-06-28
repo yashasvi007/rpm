@@ -1,0 +1,64 @@
+@import "../../../../styles/variables/index.less";
+
+.article-header {
+  height: 72px;
+  border-bottom: 1px solid #d4d7d9;
+  position: relative;
+  top: 64px;
+  width: 100%;
+  background: #ffffff;
+  z-index: 2;
+}
+.back-location {
+  padding: @24px;
+}
+
+.articles {
+  position: relative;
+  top: 72px;
+  height: auto;
+  min-height: 100%;
+  margin: 0 auto;
+  .article-content {
+    min-height: 100%;
+    display: flex;
+    top: @15px;
+    position: relative;
+    margin: 0 auto;
+    flex-direction: column;
+
+    .sortBy {
+      height: @40px;
+      background: @silver-30;
+      border-radius: @4px;
+    }
+    .sortBy .ant-select .ant-select-selection {
+      height: @40px;
+      width: @150px;
+      border: 0;
+      background: rgba(212, 215, 217, -0.7);
+      margin-bottom: @12px;
+    }
+    .sortBy .ant-select-focused .ant-select-selection {
+      box-shadow: none;
+      border: 0;
+    }
+
+    .sortBy .ant-select-open .ant-select-selection {
+      box-shadow: none;
+      border: 0;
+    }
+    .sortBy .ant-select .ant-select-selection {
+      .ant-select-selection__rendered .ant-select-selection-selected-value {
+        color: @dark;
+        font-family: @MediumFont;
+      }
+    }
+    .sortBy .ant-select .ant-select-selection {
+      .ant-select-selection__rendered {
+        margin: 0;
+        padding: 5px 10px;
+      }
+    }
+  }
+}

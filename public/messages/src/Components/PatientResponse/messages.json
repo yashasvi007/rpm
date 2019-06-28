@@ -1,0 +1,32 @@
+[
+  {
+    "id": "app.surveys.allSurveys",
+    "description": "",
+    "defaultMessage": "All Surveys"
+  },
+  {
+    "id": "app.surveys.patientsResponses",
+    "description": "",
+    "defaultMessage": "Patient's responses"
+  },
+  {
+    "id": "app.surveys.downloadResponse",
+    "description": "",
+    "defaultMessage": "Download Response"
+  },
+  {
+    "id": "app.surveys.downloadingResponse",
+    "description": "",
+    "defaultMessage": "Downloading..."
+  },
+  {
+    "id": "app.surveys.downloadSuccessMessage",
+    "description": "",
+    "defaultMessage": "Download Completed"
+  },
+  {
+    "id": "app.surveys.downloadFailureMessage",
+    "description": "",
+    "defaultMessage": "Download Failed"
+  }
+]

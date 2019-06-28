@@ -1,0 +1,87 @@
+[
+  {
+    "id": "app.modal.adverseEvent",
+    "description": "",
+    "defaultMessage": "Report Adverse Event"
+  },
+  {
+    "id": "app.modal.adverseEvent.cancel",
+    "description": "",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "app.modal.adverseEvent.tagAPatient",
+    "description": "",
+    "defaultMessage": "Tag a patient"
+  },
+  {
+    "id": "app.modal.adverseEvent.whatHappen",
+    "description": "",
+    "defaultMessage": "Describe what happened"
+  },
+  {
+    "id": "app.modal.adverseEvent.on",
+    "description": "",
+    "defaultMessage": "On"
+  },
+  {
+    "id": "app.modal.adverseEvent.at",
+    "description": "",
+    "defaultMessage": "At"
+  },
+  {
+    "id": "app.modal.adverseEvent.severity",
+    "description": "",
+    "defaultMessage": "Severity"
+  },
+  {
+    "id": "app.modal.adverseEvent.mild",
+    "description": "",
+    "defaultMessage": "Mild"
+  },
+  {
+    "id": "app.modal.adverseEvent.moderate",
+    "description": "",
+    "defaultMessage": "Moderate"
+  },
+  {
+    "id": "app.modal.adverseEvent.severe",
+    "description": "",
+    "defaultMessage": "Severe"
+  },
+  {
+    "id": "app.modal.adverseEvent.verySevere",
+    "description": "",
+    "defaultMessage": "Very Severe"
+  },
+  {
+    "id": "app.modal.adverseEvent.fatal",
+    "description": "",
+    "defaultMessage": "Fatal"
+  },
+  {
+    "id": "app.modal.adverseEvent.upload",
+    "description": "",
+    "defaultMessage": "Upload photos or files"
+  },
+  {
+    "id": "app.modal.adverseEvent.report",
+    "description": "",
+    "defaultMessage": "Report"
+  },
+  {
+    "id": "app.modal.adverseEvent.medicationDetails",
+    "description": "",
+    "defaultMessage": "Medication Details"
+  },
+  {
+    "id": "app.modal.adverseEvent.lastMedicatedOn",
+    "description": "",
+    "defaultMessage": "Last medicated on"
+  },
+  {
+    "id": "app.modal.adverseEvent.daysOfMedicationLeftTill",
+    "description": "",
+    "defaultMessage": "days of medication left till"
+  }
+]

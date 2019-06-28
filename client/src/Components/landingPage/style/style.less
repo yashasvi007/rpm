@@ -1,0 +1,49 @@
+@import "./desktop.less";
+@import "./mobile.less";
+@import "./tablet_7.less";
+@import "./tablet_9.less";
+@import "../../../styles/variables/index.less";
+
+#root {
+  .content-wrapper {
+    background-color: rgba(212, 215, 217, 0.15);
+  }
+
+  .ant-layout-content {
+    width: 100%;
+  }
+
+  .logo {
+    letter-spacing: 1px;
+  }
+
+  .signup-btn {
+    border-color: @white;
+    height: @40px;
+    width: @88px;
+    font-family: @MediumFont;
+  }
+
+  .signin-btn {
+    color: @topbar-bg-color;
+    border-color: @primary-color;
+    height: @40px;
+    width: @88px;
+    font-family: @MediumFont;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+  }
+
+  .started-static {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 3px;
+    height: 45px;
+    border: solid 1px #ffffff !important;
+    color: #ffffff !important;
+  }
+}

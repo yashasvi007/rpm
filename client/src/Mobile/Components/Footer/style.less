@@ -1,0 +1,32 @@
+@import "../../../styles/variables/index.less";
+.footer-invisible {
+  display: none;
+}
+.parent-footer {
+  flex-grow: 1;
+  display: flex;
+  .footer {
+    height: @40px;
+    width: 100%;
+    background-color: rgba(212, 215, 217, 0.15);
+    padding: 0;
+    margin: 0;
+    align-self: flex-end;
+    .footer-copyrights {
+      p {
+        padding: 0;
+        margin: 0;
+        width: @148px;
+        font-family: @RegularFont;
+        font-size: @10px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: @steel-grey;
+      }
+    }
+  }
+}

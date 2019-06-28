@@ -1,0 +1,37 @@
+[
+  {
+    "id": "app.consentDocs.myprofile",
+    "description": "",
+    "defaultMessage": "My Profile / Settings"
+  },
+  {
+    "id": "app.consentDocs.consentDocs",
+    "description": "",
+    "defaultMessage": "Consent Form"
+  },
+  {
+    "id": "app.consentDocs.replaceWarning",
+    "description": "",
+    "defaultMessage": "Re-uploading will replace the existing image files"
+  },
+  {
+    "id": "app.consentDocs.reUploadText",
+    "description": "",
+    "defaultMessage": "Re-upload (JPG, PDF)"
+  },
+  {
+    "id": "app.consentDocs.nextButton",
+    "description": "",
+    "defaultMessage": "Next"
+  },
+  {
+    "id": "app.consentDocs.prevButton",
+    "description": "",
+    "defaultMessage": "Prev"
+  },
+  {
+    "id": "app.consentDocs.uploadedOn",
+    "description": "",
+    "defaultMessage": "Uploaded On"
+  }
+]

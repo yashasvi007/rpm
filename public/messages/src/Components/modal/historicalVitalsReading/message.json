@@ -1,0 +1,17 @@
+[
+  {
+    "id": "app.historical-vitals-reading.close",
+    "description": "",
+    "defaultMessage": "Close"
+  },
+  {
+    "id": "app.historical-vitals-reading.download_csv",
+    "description": "",
+    "defaultMessage": "Download CSV"
+  },
+  {
+    "id": "app.historical-vitals-reading.historical_vitals_reading",
+    "description": "",
+    "defaultMessage": "Historical Vitals Reading"
+  }
+]

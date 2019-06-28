@@ -1,0 +1,132 @@
+@import "../../styles/variables/index.less";
+
+.ant-btn.got-it-btn {
+  float: right;
+  height: 32px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgba(227, 243, 223, 0.5);
+
+  > div > img {
+    height: 12px;
+    width: 12px;
+    padding-right: 4px;
+    margin-bottom: 2px;
+  }
+}
+
+.ant-btn.got-it-btn:hover {
+  background-color: rgba(227, 243, 223, 0.5);
+}
+
+@keyframes hide-animation {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(8%);
+  }
+  65% {
+    transform: translateY(-4%);
+  }
+  80% {
+    transform: translateY(4%);
+  }
+  95% {
+    transform: translateY(-2%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+  50% {
+    -webkit-transform: translateY(8%);
+  }
+  65% {
+    -webkit-transform: translateY(-4%);
+  }
+  80% {
+    -webkit-transform: translateY(4%);
+  }
+  95% {
+    -webkit-transform: translateY(-2%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+  }
+}
+
+.slideUp {
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+}
+
+@media (min-width: @desktop-min) {
+  .iqvia-successful-msg {
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;
+
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    height: 48px;
+    right: 0;
+    background-color: #f1f9ef;
+    z-index: 100;
+  }
+}
+
+@media (max-width: @tablet-9-max) and (min-width: @tablet-9-min) {
+  .iqvia-successful-msg {
+    position: fixed;
+    bottom: 108px;
+    left: 0;
+    right: 0;
+    background-color: rgba(227, 243, 223, 0.5);
+  }
+}
+
+@media (max-width: @tablet-7-max) and (min-width: @tablet-7-min) {
+  .iqvia-successful-msg {
+    position: fixed;
+    bottom: 108px;
+    left: 0;
+    right: 0;
+    background-color: rgba(227, 243, 223, 0.5);
+  }
+}
+
+@media (max-width: @mobile-max) {
+  .iqvia-successful-msg {
+    position: fixed;
+    bottom: 108px;
+    left: 0;
+    right: 0;
+    background-color: rgba(227, 243, 223, 0.5);
+  }
+}

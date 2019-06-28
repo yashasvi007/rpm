@@ -1,0 +1,51 @@
+@import (reference) "../../../../styles/variables/index.less";
+
+.article {
+  &.details {
+    .article-header {
+      position: fixed;
+      top: @64px;
+      left: 0;
+      right: 0;
+      background-color: @white;
+      padding: 0 @24px;
+      height: @72px;
+
+      border-bottom: solid 1px @silver;
+
+      .back {
+        height: 24px;
+        width: 24px;
+      }
+
+      .more,
+      .usr {
+        background-color: @white-two;
+        width: @32px;
+        height: @32px;
+        border-radius: @16px;
+      }
+    }
+
+    .content-wrapper {
+      min-height: 100vh;
+      padding: @136px 0 @72px 0;
+      background-color: @silver-10;
+
+      .content {
+        width: 972px;
+        margin: 36px auto;
+
+        .like,
+        .share {
+          height: @18px;
+          width: @18px;
+        }
+
+        .article-title {
+          border-bottom: solid 1px @silver;
+        }
+      }
+    }
+  }
+}

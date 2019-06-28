@@ -1,0 +1,31 @@
+@import "../variables/index.less";
+
+@media (min-width: @desktop-min) {
+  html {
+    height: 100%;
+    font-size: 16px;
+  }
+  .main-iqvia-container {
+    width: 960px;
+    padding-bottom: @16px;
+  }
+
+  .hide-desktop {
+    display: none;
+  }
+
+  .my_profile_wrapper {
+    padding-top: 160px;
+  }
+  .edit_form_page_wrapper {
+    .pt100;
+  }
+
+  .profile-page-copyright-bottom {
+    padding-bottom: 0;
+    > div {
+      height: 40px;
+      background-color: rgba(212, 215, 217, 0.15);
+    }
+  }
+}

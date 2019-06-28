@@ -1,0 +1,40 @@
+.page-container {
+  width: 80%;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  top: 64px;
+  position: relative;
+  margin: 36px auto;
+}
+@media (min-width: 200px) {
+}
+
+@media (min-width: 0px) and (max-width: 486px) {
+}
+
+@media (min-width: 487px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .page-container {
+    width: 40%;
+  }
+}
+
+@media (min-width: 993px) {
+  .page-container {
+    width: 40%;
+  }
+}
+@media (min-width: 1200px) {
+  .page-container {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .page-container {
+    width: 40%;
+  }
+}

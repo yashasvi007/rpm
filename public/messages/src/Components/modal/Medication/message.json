@@ -1,0 +1,67 @@
+[
+  {
+    "id": "app.Medication.updatemedication",
+    "description": "medication detail title",
+    "defaultMessage": "Update Medication"
+  },
+  {
+    "id": "app.Medication.addmedication",
+    "description": "medication detail title",
+    "defaultMessage": "Add Medication"
+  },
+  {
+    "id": "app.Medication.medicine",
+    "description": "medicine in medication detail title",
+    "defaultMessage": "Medicine"
+  },
+  {
+    "id": "app.Medication.of",
+    "description": "of in medication detail title",
+    "defaultMessage": "of"
+  },
+  {
+    "id": "app.Medication.drugName",
+    "description": "drug name in medication detail",
+    "defaultMessage": "Drug Name"
+  },
+  {
+    "id": "app.Medication.medicationgivenuntil",
+    "description": "medicationgivenuntil in medication detail",
+    "defaultMessage": "Medication given until"
+  },
+  {
+    "id": "app.Medication.daysremaining",
+    "description": "daysremaining in medication detail",
+    "defaultMessage": "days remaining"
+  },
+  {
+    "id": "app.Medication.howOften",
+    "description": "how often placeholder in medication form",
+    "defaultMessage": "How Often"
+  },
+  {
+    "id": "app.Medication.Submit",
+    "description": "submit button in medication form",
+    "defaultMessage": "Submit"
+  },
+  {
+    "id": "app.Medication.cancel",
+    "description": "cancel button in medication form",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "app.Medication.remove",
+    "description": "remove button in medication form",
+    "defaultMessage": "Remove"
+  },
+  {
+    "id": "app.Medication.lastmedication",
+    "description": "last medication on in medication detail",
+    "defaultMessage": "Last medicated on"
+  },
+  {
+    "id": "app.Medication.dosageInterval",
+    "description": "Interval of Dosage",
+    "defaultMessage": "Dosage Interval"
+  }
+]

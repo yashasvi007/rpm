@@ -1,0 +1,112 @@
+@import "../../styles/variables/index.less";
+
+.patient-response {
+  margin-top: @64px;
+
+  .response-header {
+    padding: 16px;
+  }
+  .progress-bar-div {
+    max-width: 300px;
+  }
+  .change-btn {
+    background: @silver-15;
+    border: none;
+  }
+  .survey-questions {
+    background-color: @silver-10;
+  }
+  .patient-survey-question {
+    padding-top: @80px;
+    margin-left: @356px;
+    margin-right: @356px;
+  }
+  .surveyDescription {
+    margin-bottom: @72px;
+  }
+  .radio-group-tab {
+    display: flex;
+  }
+  .ant-radio-button-wrapper {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > span {
+      font-size: 14px;
+      color: @dark;
+      font-family: @MediumFont;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .ant-radio-button-wrapper-checked {
+    > span {
+      color: @white;
+    }
+  }
+  .change-btn.ant-btn[disabled] {
+    background-color: @silver-15;
+  }
+  .disable-question {
+    opacity: 0.5;
+  }
+  .survey-response-header {
+    position: fixed;
+    z-index: 111;
+    background: white;
+    width: 100%;
+    max-height: @72px;
+  }
+  .response-header-of-patient {
+    z-index: 1111;
+    .survey-response-header {
+      .response-header {
+        .prev-next-btn {
+          .links {
+            .change-btn.ant-btn[disabled] {
+              background-color: @silver-15 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// #root .ant-btn[disabled]{
+//     background-color: @silver-15
+// }
+
+/* width */
+// ::-webkit-scrollbar {
+//   width: 2px;
+// }
+
+// /* Track */
+// ::-webkit-scrollbar-track {
+//   box-shadow: inset 0 0 2px grey;
+//   border-radius: 10px;
+// }
+
+// /* Handle */
+// ::-webkit-scrollbar-thumb {
+//   background: @label-color;
+//   border-radius: 10px;
+// }
+
+// /* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//   background: @silver;
+// }
+.survey-completed {
+  height: 100%;
+  display: flex;
+  flex-grow: 12;
+  align-items: center;
+  justify-content: center;
+}

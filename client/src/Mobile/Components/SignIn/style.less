@@ -1,0 +1,75 @@
+@import "../../../styles/variables/index.less";
+
+.page-container {
+  width: 80%;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  top: 64px;
+  position: relative;
+
+  .parent-footer {
+    .footer-copyrights {
+      padding-left: 16px;
+    }
+  }
+}
+@media (min-width: 200px) {
+}
+
+@media (min-width: 0px) {
+  .signin-footer {
+    background-color: @white;
+    float: right;
+    height: @60px;
+    bottom: 0;
+    position: fixed;
+    z-index: 111;
+    width: 100%;
+  }
+
+  .forgotpassword-btn {
+    border-color: @white;
+    height: @40px;
+    width: @145px;
+    font-family: @MediumFont;
+  }
+
+  .signin-btn {
+    color: @topbar-bg-color;
+    border-color: @primary-color;
+    height: @40px;
+    width: @88px;
+    font-family: @MediumFont;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+  }
+}
+
+@media (min-width: 487px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .page-container {
+    width: 40%;
+  }
+}
+
+@media (min-width: 993px) {
+  .page-container {
+    width: 40%;
+  }
+}
+@media (min-width: 1200px) {
+  .page-container {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .page-container {
+    width: 40%;
+  }
+}

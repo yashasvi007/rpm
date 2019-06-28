@@ -1,0 +1,672 @@
+[
+  {
+    "id": "app.edit-profile-main.my-profile",
+    "description": "heading",
+    "defaultMessage": "My Profile"
+  },
+  {
+    "id": "app.edit-profile.menubar.personal",
+    "description": "personal menu text",
+    "defaultMessage": "Personal"
+  },
+  {
+    "id": "app.edit-profile.menubar.contacts",
+    "description": "contacts menu text",
+    "defaultMessage": "Contacts"
+  },
+  {
+    "id": "app.edit-profile.menubar.medical",
+    "description": "medical menu text",
+    "defaultMessage": "Medical"
+  },
+  {
+    "id": "app.edit-profile.menubar.settings",
+    "description": "settings menu text",
+    "defaultMessage": "Settings"
+  },
+  {
+    "id": "app.edit-profile.menubar.insurance",
+    "description": "insurance menu text",
+    "defaultMessage": "Insurance"
+  },
+  {
+    "id": "app.edit-profile.insuranceSection.insuranceProvider",
+    "description": "insurance provider input label text",
+    "defaultMessage": "Medical Insurance Provider"
+  },
+  {
+    "id": "app.edit-profile.insuranceSection.insurancePolicy",
+    "description": "insurance policy input label text",
+    "defaultMessage": "Insurance Policy"
+  },
+  {
+    "id": "app.edit-profile.insuranceSection.insuranceExpiresOn",
+    "description": "insurance expires input label text",
+    "defaultMessage": "Valid Till"
+  },
+  {
+    "id": "app.edit-profile.contact-sections.hospital",
+    "description": "Hospital label text",
+    "defaultMessage": "Hospital"
+  },
+  {
+    "id": "app.edit-profile.menubar.work",
+    "description": "work menu text",
+    "defaultMessage": "Work"
+  },
+  {
+    "id": "app.edit-profile.work-section.hospital-name",
+    "description": "hospital name",
+    "defaultMessage": "Hospital Name"
+  },
+  {
+    "id": "app.edit-profile.work-section.speciality",
+    "description": "speciality",
+    "defaultMessage": "Speciality"
+  },
+  {
+    "id": "app.edit-profile.work-section.speciality-rule",
+    "description": "speciality rule",
+    "defaultMessage": "Please provide speciality"
+  },
+  {
+    "id": "app.edit-profile.work-section.license-number",
+    "description": "license number",
+    "defaultMessage": "License Number"
+  },
+  {
+    "id": "app.edit-profile.work-section.bio",
+    "description": "bio",
+    "defaultMessage": "Bio"
+  },
+  {
+    "id": "app.edit-profile.work-section.address-line1",
+    "description": "address line 1",
+    "defaultMessage": "Flat / House / Floor / Building"
+  },
+  {
+    "id": "app.edit-profile.work-section.address-line2",
+    "description": "address line 2",
+    "defaultMessage": "Street / Locality / Area"
+  },
+  {
+    "id": "app.edit-profile.work-section.zipcode",
+    "description": "zip code",
+    "defaultMessage": "PO box / Zipcode"
+  },
+  {
+    "id": "app.edit-profile.work-section.city",
+    "description": "city label",
+    "defaultMessage": "Region or State"
+  },
+  {
+    "id": "app.edit-profile.work-section.country",
+    "description": "country label",
+    "defaultMessage": "Country"
+  },
+  {
+    "id": "app.edit-profile.work-section.organisation-name",
+    "description": "organization name",
+    "defaultMessage": "Organisation Name"
+  },
+  {
+    "id": "app.edit-profile.work-section.services",
+    "description": "services",
+    "defaultMessage": "Services"
+  },
+  {
+    "id": "app.edit-profile.not-blank",
+    "description": "not be blank",
+    "defaultMessage": "not be blank"
+  },
+  {
+    "id": "app.edit-profile.service-section.nursing-title",
+    "description": "nursing title",
+    "defaultMessage": "Nursing"
+  },
+  {
+    "id": "app.edit-profile.service-section.physical-therapy-title",
+    "description": "physical therapy title",
+    "defaultMessage": "Physical Therapy"
+  },
+  {
+    "id": "app.edit-profile.service-section.occupational-therapy-title",
+    "description": "occupational therapy title",
+    "defaultMessage": "Occupational Therapy"
+  },
+  {
+    "id": "app.edit-profile.service-section.speech-and-language-pathology-title",
+    "description": "speech and language pathology title",
+    "defaultMessage": "Speech and Language Pathology"
+  },
+  {
+    "id": "app.edit-profile.service-section.medical-counselling-title",
+    "description": "medical counselling title",
+    "defaultMessage": "Medical Counselling"
+  },
+  {
+    "id": "app.edit-profile.service-section.health-aide-title",
+    "description": "health aide title",
+    "defaultMessage": "Health Aide"
+  },
+  {
+    "id": "app.edit-profile.service-section.nursing",
+    "description": "nursing",
+    "defaultMessage": "Physical assessments, which include monitoring of vital signs, administer oral and intravenous medications as well as monitoring of cardiac and respiratory status"
+  },
+  {
+    "id": "app.edit-profile.service-section.physical-therapy",
+    "description": "physical therapy",
+    "defaultMessage": "Assist patients to condition muscles and regain strength"
+  },
+  {
+    "id": "app.edit-profile.service-section.occupational-therapy",
+    "description": "occupational therapy",
+    "defaultMessage": "Assist patients to perform functional skills such as bathing, eating, cooking, and many other skills"
+  },
+  {
+    "id": "app.edit-profile.service-section.speech-and-language-pathology",
+    "description": "speech and language pathology",
+    "defaultMessage": "Assist patients to regain their ability to speak, swallow, and eat after a stroke or other neurological injuries"
+  },
+  {
+    "id": "app.edit-profile.service-section.medical-counselling",
+    "description": "medical counselling",
+    "defaultMessage": "Assistance with medications, provision of counseling, assistance with financial matters, transportation, and in accessing educational and treatment resources"
+  },
+  {
+    "id": "app.edit-profile.service-section.health-aide",
+    "description": "health aide",
+    "defaultMessage": "Assist patients with their activities of daily living while patients are limited in mobility and strength which includes tasks such as bathing, grooming, and preparing meals"
+  },
+  {
+    "id": "app.edit-profile.service-section.cardiac-care-title",
+    "description": "cardiac care title",
+    "defaultMessage": "Cardiac Care"
+  },
+  {
+    "id": "app.edit-profile.service-section.diabetes-care-title",
+    "description": "diabetes care title",
+    "defaultMessage": "Diabetes Care"
+  },
+  {
+    "id": "app.edit-profile.service-section.smoking-cessation-title",
+    "description": "smoking cessation title",
+    "defaultMessage": "Smoking Cessation"
+  },
+  {
+    "id": "app.edit-profile.service-section.respite-care-title",
+    "description": "respite care title",
+    "defaultMessage": "Respite Care"
+  },
+  {
+    "id": "app.edit-profile.service-section.homemaking-title",
+    "description": "homemaking title",
+    "defaultMessage": "Homemaking"
+  },
+  {
+    "id": "app.edit-profile.service-section.cardiac-care",
+    "description": "Cardiac Care",
+    "defaultMessage": "Assist patients with cardiac disease to manage their disease and to help slow down progression of their disease, monitor the cardiac status, prompt efficient treatment that will prevent re- hospitalization"
+  },
+  {
+    "id": "app.edit-profile.service-section.diabetes-care",
+    "description": "Diabetes Care",
+    "defaultMessage": "Assist patient with diabetes and their families in learning to manage their diabetes, educate diet, exercise, self- blood glucose monitoring, and about complications of uncontrolled diabetes"
+  },
+  {
+    "id": "app.edit-profile.service-section.smoking-cessation",
+    "description": "Smoking Cessation",
+    "defaultMessage": "Provide nicotine replacement therapy"
+  },
+  {
+    "id": "app.edit-profile.service-section.respite-care",
+    "description": "Respite Care",
+    "defaultMessage": "Assist patients with Adult Care, Alzheimer’s Care, Hospital Support"
+  },
+  {
+    "id": "app.edit-profile.service-section.homemaking",
+    "description": "Homemaking",
+    "defaultMessage": "Provide patients with daily assistance including meal preparation, housekeeping, laundary & maintaining chores"
+  },
+  {
+    "id": "app.myprofile.medical-services",
+    "description": "medical services",
+    "defaultMessage": "Medical Services"
+  },
+  {
+    "id": "app.myprofile.home-health-care",
+    "description": "home health care",
+    "defaultMessage": "Home Health Care"
+  },
+  {
+    "id": "app.myprofile.special-care",
+    "description": "special care",
+    "defaultMessage": "Special Care"
+  },
+  {
+    "id": "app.myprofile.non-medical-services",
+    "description": "non medical services",
+    "defaultMessage": "Non-medical Services"
+  },
+  {
+    "id": "app.medical-section.basic",
+    "description": "basic",
+    "defaultMessage": "Basic"
+  },
+  {
+    "id": "app.medical-section.chief-complaint",
+    "description": "chief complaint",
+    "defaultMessage": "Chief Complaint"
+  },
+  {
+    "id": "app.medical-section.allergies",
+    "description": "allergies",
+    "defaultMessage": "Allergies"
+  },
+  {
+    "id": "app.medical-section.use-comma",
+    "description": "use comma tip",
+    "defaultMessage": "Use , (comma) to add more"
+  },
+  {
+    "id": "app.medical-section.surgeries-fracture",
+    "description": "surgeries fracture label",
+    "defaultMessage": "Surgeries/Fracture"
+  },
+  {
+    "id": "app.medical-section.other-conditions",
+    "description": "other conditions label",
+    "defaultMessage": "Other Conditions"
+  },
+  {
+    "id": "app.medical-section.vital",
+    "description": "vital label",
+    "defaultMessage": "Vital"
+  },
+  {
+    "id": "app.medical-section.vital-subtitle",
+    "description": "vital subtitle",
+    "defaultMessage": "Add most recent vital readings"
+  },
+  {
+    "id": "app.medical-section.body-temperature",
+    "description": "body temperature",
+    "defaultMessage": "Body Temperature"
+  },
+  {
+    "id": "app.medical-section.respiration-rate",
+    "description": "respiration rate",
+    "defaultMessage": "Respiration Rate"
+  },
+  {
+    "id": "app.medical-section.breathe-per-minute",
+    "description": "breathe per minute",
+    "defaultMessage": "breathe per minute"
+  },
+  {
+    "id": "app.medical-section.pulse-rate",
+    "description": "pulse rate",
+    "defaultMessage": "Pulse Rate"
+  },
+  {
+    "id": "app.medical-section.bpm",
+    "description": "bpm",
+    "defaultMessage": "bpm"
+  },
+  {
+    "id": "app.medical-section.blood-pressure",
+    "description": "blood pressure",
+    "defaultMessage": "Blood Pressure"
+  },
+  {
+    "id": "app.medical-section.bp-unit",
+    "description": "blood pressure unit",
+    "defaultMessage": "systolic/diastolic in mmHG"
+  },
+  {
+    "id": "app.medical-section.clinical-readings",
+    "description": "clinical readings",
+    "defaultMessage": "Clinical Readings"
+  },
+  {
+    "id": "app.medical-section.clinical-readings-subtitle",
+    "description": "clinical readings subtitle",
+    "defaultMessage": "Choose a diagnosis method & add clinical readings respectively. You can add multiple readings"
+  },
+  {
+    "id": "app.contacts-section.not-be-blank",
+    "description": "Cannot be blank",
+    "defaultMessage": "Cannot be blank"
+  },
+  {
+    "id": "app.contacts-section.case-doctor",
+    "description": "case doctor",
+    "defaultMessage": "Case Doctor"
+  },
+  {
+    "id": "app.contacts-section.not-assigned",
+    "description": "not assigned",
+    "defaultMessage": "Not assigned"
+  },
+  {
+    "id": "app.contacts-section.care-coach",
+    "description": "care coach",
+    "defaultMessage": "Care coach"
+  },
+  {
+    "id": "app.contacts-section.relative-name",
+    "description": "relative name",
+    "defaultMessage": "Relative Name"
+  },
+  {
+    "id": "app.contacts-section.parent",
+    "description": "parent",
+    "defaultMessage": "Parent"
+  },
+  {
+    "id": "app.contacts-section.spouse",
+    "description": "spouse",
+    "defaultMessage": "Spouse"
+  },
+  {
+    "id": "app.contacts-section.guardian",
+    "description": "guardian",
+    "defaultMessage": "Guardian"
+  },
+  {
+    "id": "app.contacts-section.relative-mobile",
+    "description": "relative mobile",
+    "defaultMessage": "Relative Mobile"
+  },
+  {
+    "id": "app.contacts-section.contact-relative",
+    "description": "contact relative for emergency",
+    "defaultMessage": "Contact Relative for Emergency"
+  },
+  {
+    "id": "app.contacts-section.emergency-contact-mobile",
+    "description": "emergency contact mobile",
+    "defaultMessage": "Emergency Contact Mobile"
+  },
+  {
+    "id": "app.contacts-section.emergency-contact-name",
+    "description": "emergency contact name",
+    "defaultMessage": "Emergency Contact Name"
+  },
+  {
+    "id": "app.contacts-section.emergency-contact-rule",
+    "description": "emergency contact rule",
+    "defaultMessage": "Please provide emergency contact"
+  },
+  {
+    "id": "app.contacts-section.phone-number-rule",
+    "description": "phone number rule",
+    "defaultMessage": "Please provide phone number"
+  },
+  {
+    "id": "app.contacts-section.carecoach-phone-number-rule",
+    "description": "phone number rule",
+    "defaultMessage": "This field cannot be blank. Please provide phone number"
+  },
+  {
+    "id": "app.edit-profile.setting-section.chnage-password",
+    "description": "change password",
+    "defaultMessage": "Change Password"
+  },
+  {
+    "id": "app.edit-profile.setting-section.calendar-sync",
+    "description": "calendar synced",
+    "defaultMessage": "Calendar Sync"
+  },
+  {
+    "id": "app.edit-profile.setting-section.sms-alerts",
+    "description": "sms alert",
+    "defaultMessage": "SMS Alerts"
+  },
+  {
+    "id": "app.edit-profile.setting-section.sms-will-be-sent",
+    "description": "sms will be sent",
+    "defaultMessage": "SMS will be sent to your registered mobile contact"
+  },
+  {
+    "id": "app.edit-profile.setting-section.email-alerts",
+    "description": "email alert",
+    "defaultMessage": "Email Alerts"
+  },
+  {
+    "id": "app.edit-profile.setting-section.email-will-be-sent",
+    "description": "email will be sent",
+    "defaultMessage": "Email will be sent to your registered email address"
+  },
+  {
+    "id": "app.edit-profile.setting-section.push-alerts",
+    "description": "push alert",
+    "defaultMessage": "In-app / Push Alerts"
+  },
+  {
+    "id": "app.edit-profile.setting-section.push-will-be-sent",
+    "description": "push will be sent",
+    "defaultMessage": "These alerts are notified within the RPM web app."
+  },
+  {
+    "id": "app.edit-profile.setting-section.reminder-alerts",
+    "description": "reminder alert",
+    "defaultMessage": "Reminder Alerts"
+  },
+  {
+    "id": "app.edit-profile.setting-section.reminder-will-be-sent",
+    "description": "reminder will be sent",
+    "defaultMessage": "All reminders will be sent via SMS/Email/Calendar"
+  },
+  {
+    "id": "app.edit-profile.setting-section.account",
+    "description": "account",
+    "defaultMessage": "Account"
+  },
+  {
+    "id": "app.edit-profile.setting-section.notifications",
+    "description": "notifications",
+    "defaultMessage": "Notifications"
+  },
+  {
+    "id": "app.edit-profile.personal-section.select-photo-title",
+    "description": "profile photo selection title",
+    "defaultMessage": "Select profile photo"
+  },
+  {
+    "id": "app.edit-profile.personal-section.photo-ok-text",
+    "description": "profile photo ok text",
+    "defaultMessage": "Set as Profile Photo"
+  },
+  {
+    "id": "app.edit-profile.personal-section.crop-image-text",
+    "description": "crop image instruction text",
+    "defaultMessage": "To crop this image, drag the region below and then click “Set as Profile Photo” button"
+  },
+  {
+    "id": "app.edit-profile.personal-section.photo-visible-info",
+    "description": "photo will be visible info text",
+    "defaultMessage": "Your profile photo will be visible to everyone, across IQVIA products."
+  },
+  {
+    "id": "app.edit-profile.personal-section.verified",
+    "description": "verified",
+    "defaultMessage": "Verified"
+  },
+  {
+    "id": "app.edit-profile.personal-section.not-verified",
+    "description": "not verified",
+    "defaultMessage": "Not verified"
+  },
+  {
+    "id": "app.edit-profile.personal-section.mobile",
+    "description": "mobile",
+    "defaultMessage": "Mobile"
+  },
+  {
+    "id": "app.edit-profile.personal-section.name-rule",
+    "description": "name rule",
+    "defaultMessage": "please provide your Name"
+  },
+  {
+    "id": "app.edit-profile.personal-section.dob-rule",
+    "description": "dob rule",
+    "defaultMessage": "please provide your Date of Birth"
+  },
+  {
+    "id": "app.edit-profile.personal-section.gender-rule",
+    "description": "gender rule",
+    "defaultMessage": "please provide your gender"
+  },
+  {
+    "id": "app.edit-profile.personal-section.locality-rule",
+    "description": "locality rule",
+    "defaultMessage": "please fill your locality"
+  },
+  {
+    "id": "app.edit-profile.personal-section.zipcode-rule",
+    "description": "zipcode rule",
+    "defaultMessage": "please fill your zip code"
+  },
+  {
+    "id": "app.edit-profile.personal-section.city-rule",
+    "description": "city rule",
+    "defaultMessage": "please provide your city"
+  },
+  {
+    "id": "app.edit-profile.personal-section.country-rule",
+    "description": "country rule",
+    "defaultMessage": "please provide your country"
+  },
+  {
+    "id": "app.edit-profile.personal-section.send-otp",
+    "description": "send otp",
+    "defaultMessage": "Send OTP"
+  },
+  {
+    "id": "app.edit-profile.personal-section.full-name",
+    "description": "full name",
+    "defaultMessage": "Full Name"
+  },
+  {
+    "id": "app.edit-profile.personal-section.date-of-birth",
+    "description": "date of birth",
+    "defaultMessage": "Date of Birth"
+  },
+  {
+    "id": "app.edit-profile.personal-section.email",
+    "description": "email",
+    "defaultMessage": "Email"
+  },
+  {
+    "id": "app.edit-profile.personal-section.male",
+    "description": "male",
+    "defaultMessage": "Male"
+  },
+  {
+    "id": "app.edit-profile.personal-section.female",
+    "description": "female",
+    "defaultMessage": "Female"
+  },
+  {
+    "id": "app.edit-profile.personal-section.city",
+    "description": "city",
+    "defaultMessage": "City"
+  },
+  {
+    "id": "app.edit-profile.personal-section.country",
+    "description": "country",
+    "defaultMessage": "Country"
+  },
+  {
+    "id": "app.edit-profile.settingSection.consentForm",
+    "description": "",
+    "defaultMessage": "Consent Form"
+  },
+  {
+    "id": "app.edit-profile.settingSection.Idproof",
+    "description": "",
+    "defaultMessage": "ID Proof"
+  },
+  {
+    "id": "app.edit-profile.settingSection.uploadedOn",
+    "description": "",
+    "defaultMessage": "Uploaded on"
+  },
+  {
+    "id": "app.care-coach.add-patient.newPatient",
+    "description": "new patient text",
+    "defaultMessage": "New Patient"
+  },
+  {
+    "id": "app.care-coach.add-doctor.newDoctor",
+    "description": "new doctor text",
+    "defaultMessage": "New Doctor"
+  },
+  {
+    "id": "app.care-coach.add-patient.patientEmail",
+    "description": "patient email text",
+    "defaultMessage": "Patient's Email"
+  },
+  {
+    "id": "app.care-coach.add-patient.doctorEmail",
+    "description": "patient email text",
+    "defaultMessage": "Doctor's Email"
+  },
+  {
+    "id": "app.care-coach.add-patient.incorrectEmail",
+    "description": "That's not a valid E-mail address",
+    "defaultMessage": "Please enter a valid email address"
+  },
+  {
+    "id": "app.care-coach.add-patient.program",
+    "description": "program menu text",
+    "defaultMessage": "Program"
+  },
+  {
+    "id": "app.care-coach.add-patient.programError",
+    "description": "program error text",
+    "defaultMessage": "Please enter a Program"
+  },
+  {
+    "id": "app.care-coach.add-patient.newPatientSuccess",
+    "description": "new patient successfully enrolled",
+    "defaultMessage": "New Patient enrolled to the program and invite sent successfully"
+  },
+  {
+    "id": "app.care-coach.add-patient.newPatientFailure",
+    "description": "new patient not enrolled",
+    "defaultMessage": "Unable to enroll new Patient, Please try again."
+  },
+  {
+    "id": "app.care-coach.add-patient.newDoctorSuccess",
+    "description": "new patient successfully enrolled",
+    "defaultMessage": "New Doctor enrolled to the program and invite sent successfully"
+  },
+  {
+    "id": "app.care-coach.add-patient.newDoctorFailure",
+    "description": "new doctor not enrolled",
+    "defaultMessage": "Unable to enroll new Doctor, Please try again."
+  },
+  {
+    "id": "app.care-coach.add-doctor.licenseId",
+    "description": "license id",
+    "defaultMessage": "License ID"
+  },
+  {
+    "id": "app.care-coach.add-patient.hospitalError",
+    "description": "hospital error text",
+    "defaultMessage": "Please enter a Hospital"
+  },
+  {
+    "id": "app.edit-profile.relativeNumber error",
+    "description": "relatvie number equal to personal number error",
+    "defaultMessage": "Relative number and Personal Number cannot be same"
+  },
+  {
+    "id": "app.edit-profile.emergencyNumber error",
+    "description": "emergency number equal to personal number error",
+    "defaultMessage": "Emergency number and Personal Number cannot be same"
+  }
+]

@@ -1,0 +1,33 @@
+@import "../variables/index.less";
+
+@media (max-width: @tablet-9-max) and (min-width: @tablet-9-min) {
+  html {
+    height: 100%;
+    font-size: 16px;
+  }
+  .main-iqvia-container {
+    width: 100%;
+
+    padding-left: @32px;
+    padding-right: @32px;
+    padding-bottom: @8px;
+  }
+
+  .hide-tablet-9 {
+    display: none;
+  }
+  .my_profile_wrapper {
+    padding-top: 70px;
+  }
+  .edit_form_page_wrapper {
+    .pt20;
+  }
+
+  .profile-page-copyright-bottom {
+    padding-bottom: 72px;
+    > div {
+      height: 40px;
+      background-color: rgba(212, 215, 217, 0.15);
+    }
+  }
+}

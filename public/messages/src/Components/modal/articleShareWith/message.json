@@ -1,0 +1,12 @@
+[
+  {
+    "id": "app.modal.close",
+    "description": "",
+    "defaultMessage": "Close"
+  },
+  {
+    "id": "app.modal.save",
+    "description": "",
+    "defaultMessage": "Save"
+  }
+]

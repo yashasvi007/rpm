@@ -1,0 +1,56 @@
+#providerConsultationContainer {
+  display: flex;
+  flex-direction: row;
+}
+#providerConsultationLeftContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65%;
+  height: auto;
+  background: #f0f2f3;
+}
+#providerConsultationRightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 700px;
+  background: #ffffff;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+#patientDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+#videoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  height: auto;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+#prescribeMedicineContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: auto;
+}
+/**********css helper classes********/
+
+.clearFixVerticalVS {
+  height: 100%;
+  width: 2%;
+}
+
+.clearFixHorizontalVS {
+  height: 25px;
+  width: 100%;
+}

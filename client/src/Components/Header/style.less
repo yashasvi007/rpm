@@ -1,0 +1,180 @@
+@import "../../styles/variables/index.less";
+
+.fixed_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: @64px;
+  z-index: 100;
+}
+
+.welcomeMessage {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  justify-content: flex-end;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  right: 20px;
+}
+
+.welcomeMessage > h3 {
+  color: white;
+  font-family: AvenirNext-Medium;
+}
+
+.user-logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: rgba(@white, 0.8);
+}
+
+.mainmenu {
+  margin-left: 50px;
+  margin-top: 16px;
+}
+.dashboard {
+  width: @104px;
+}
+.my-medical-detail {
+  width: @145px;
+}
+.mycalender {
+  width: @115px;
+}
+.program {
+  width: @95px;
+}
+.menuItem.ant-menu-item-selected:hover {
+  color: @white;
+}
+.ico-search-desktop {
+  width: @24px;
+  height: @24px;
+  margin-right: 24px;
+  object-fit: contain;
+}
+// .search:hover {
+//   width: 40px;
+//   height: 40px;
+//   opacity: 0.15;
+//   border-radius: 50%;
+//   background-color: #005587;
+// }
+.chat {
+  width: @24px;
+  height: @24px;
+  margin-right: 24px;
+  object-fit: contain;
+}
+.alert {
+  width: @24px;
+  height: @24px;
+  margin-right: 24px;
+  object-fit: contain;
+}
+.add-button-menu {
+  margin-top: @16px;
+}
+.ico-search-desktop:hover {
+  cursor: pointer;
+}
+.chat:hover {
+  cursor: pointer;
+}
+.alert:hover {
+  cursor: pointer;
+}
+// .icons{
+//   width: @24px;
+//   height: @24px;
+//   margin-right: 24px;
+//   object-fit: contain;
+// }
+.searchbar {
+  display: block;
+  position: fixed;
+  top: @60px;
+  left: 0;
+  right: 0;
+  height: @48px;
+  z-index: 100;
+}
+.addButton.ant-btn {
+  margin-right: @24px;
+  background: #005587;
+  width: 92px;
+  height: 40px;
+  border-radius: 20px;
+  color: @white;
+  border: 0;
+}
+.icons {
+  width: @18px;
+  height: @18px;
+}
+
+.nosearchbar {
+  display: none;
+}
+.addButtonMenuItem.ant-dropdown-menu-item:hover {
+  background-color: #d4d7d9;
+}
+#root {
+  .ant-menu {
+    &.menu {
+      background: transparent;
+    }
+  }
+  // ant-menu-item
+  //   menuitem
+  //   dashboard
+  //   ant-menu-item-active
+  //   fontsize14
+  .ant-menu-item {
+    &.menuItem {
+      &:hover {
+        color: rgba(@white, 0.8);
+      }
+      height: @30px;
+      font-family: @DemiMediumFont;
+      color: @white;
+      background-color: @primary-color;
+      padding-bottom: 34px;
+    }
+    &.ant-menu-item:hover {
+      border-bottom: 2px solid #ffffff;
+    }
+    &.menuItem.dashboard.ant-menu-item-active {
+      > a {
+        color: rgba(@white, 0.8);
+      }
+    }
+  }
+  .ant-menu-item-selected {
+    &.menuItem {
+      border-bottom: 4px solid #ffffff;
+    }
+  }
+  .ant-btn {
+    &.addButton:hover {
+      background-color: #005587;
+      color: @white;
+    }
+  }
+  .ant-btn {
+    &.addButton:active {
+      background-color: #005587;
+      color: @white;
+    }
+  }
+  .ant-btn {
+    &.addButton:focus {
+      background-color: #005587;
+      color: @white;
+    }
+  }
+}

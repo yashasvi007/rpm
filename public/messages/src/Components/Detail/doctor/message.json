@@ -1,0 +1,207 @@
+[
+  {
+    "id": "app.DoctorProfile.calender",
+    "description": "Calender in profile header",
+    "defaultMessage": "Calendar"
+  },
+  {
+    "id": "app.DoctorProfile.medicalDetails",
+    "description": "Medical Details in profile header",
+    "defaultMessage": "Medical Details"
+  },
+  {
+    "id": "app.DoctorProfile.basic",
+    "description": "Basic in medical details tabs",
+    "defaultMessage": "Basic"
+  },
+  {
+    "id": "app.DoctorProfile.vital",
+    "description": "Basic in medical details tabs",
+    "defaultMessage": "Vital"
+  },
+  {
+    "id": "app.DoctorProfile.clinicalReading",
+    "description": "ClinicalReading  in medical details tabs",
+    "defaultMessage": "Clinical Reading"
+  },
+  {
+    "id": "app.DoctorProfile.medication",
+    "description": "Medication in medical details tabs",
+    "defaultMessage": "Medication"
+  },
+  {
+    "id": "app.DoctorProfile.adverseEvent",
+    "description": "Adverse Event in medical details tabs",
+    "defaultMessage": "Adverse Event"
+  },
+  {
+    "id": "app.DoctorProfile.chiefComplaint",
+    "description": "Chief Complaint in the basic section",
+    "defaultMessage": "Chief Complaint"
+  },
+  {
+    "id": "app.DoctorProfile.Allergies",
+    "description": "Allergies in the basic section",
+    "defaultMessage": "Allergies"
+  },
+  {
+    "id": "app.DoctorProfile.SurgeriesOrFractures",
+    "description": "SurgeriesOrFractures in the basic section",
+    "defaultMessage": "Surgeries/Fractures"
+  },
+  {
+    "id": "app.DoctorProfile.OtherCondition",
+    "description": "Other Condition in the basic section",
+    "defaultMessage": "Other Condition"
+  },
+  {
+    "id": "app.DoctorProfile.EnrolledOn",
+    "description": "EnrolledOn in patient details Setion",
+    "defaultMessage": "Enrolled on"
+  },
+  {
+    "id": "app.DoctorProfile.ConsentIdVerification",
+    "description": "ConsentandIDVerification in patient details Setion",
+    "defaultMessage": "Consent & ID Verification"
+  },
+  {
+    "id": "app.DoctorProfile.Insurance",
+    "description": "Insurance in patient details Setion",
+    "defaultMessage": "Insurance"
+  },
+  {
+    "id": "app.DoctorProfile.MedicalInsuranceProvider",
+    "description": "MedicalInsuranceProvider in patient details Setion",
+    "defaultMessage": "MedicalInsuranceProvider"
+  },
+  {
+    "id": "app.DoctorProfile.InsurancePolicy",
+    "description": "InsurancePolicy in patient details Setion",
+    "defaultMessage": "Insurance Policy"
+  },
+  {
+    "id": "app.DoctorProfile.ValidTill",
+    "description": "ValidTill in patient details Setion",
+    "defaultMessage": "Valid Till"
+  },
+  {
+    "id": "app.DoctorProfile.Contacts",
+    "description": "Contacts in patient details Setion",
+    "defaultMessage": "Contacts"
+  },
+  {
+    "id": "app.DoctorProfile.Personal",
+    "description": "Personal in patient details Setion",
+    "defaultMessage": "Personal"
+  },
+  {
+    "id": "app.DoctorProfile.Others",
+    "description": "Others in patient details Setion",
+    "defaultMessage": "Others"
+  },
+  {
+    "id": "app.DoctorProfile.CaseDoctor",
+    "description": "CaseDoctor in patient details Setion",
+    "defaultMessage": "Case Doctor"
+  },
+  {
+    "id": "app.DoctorProfile.Hospital",
+    "description": "Hospital in patient details Setion",
+    "defaultMessage": "Hospital"
+  },
+  {
+    "id": "app.DoctorProfile.EmergencyContact",
+    "description": "EmergencyContact in patient details Setion",
+    "defaultMessage": "Emergency Contact"
+  },
+  {
+    "id": "app.DoctorProfile.Discharge",
+    "description": "Discharge in patient details Setion",
+    "defaultMessage": "Discharge"
+  },
+  {
+    "id": "app.DoctorProfile.EditProfile",
+    "description": "EditProfile in patient details Setion",
+    "defaultMessage": "Edit Profile"
+  },
+  {
+    "id": "app.DoctorProfile.Verified",
+    "description": "Verified in patient details Setion",
+    "defaultMessage": "Verified"
+  },
+  {
+    "id": "app.DoctorProfile.NotVerified",
+    "description": "NotVerified in patient details Setion",
+    "defaultMessage": "Not Verified"
+  },
+  {
+    "id": "app.DoctorProfile.noAllergies",
+    "description": "noAllergies in basics allergies section",
+    "defaultMessage": "You have “No Allergies”"
+  },
+  {
+    "id": "app.DoctorProfile.noSurgeries",
+    "description": "noSurgeries in basics allergies section",
+    "defaultMessage": "You have “No Surgeries”"
+  },
+  {
+    "id": "app.DoctorProfile.noOtherCondition",
+    "description": "noOtherCondition in basics allergies section",
+    "defaultMessage": "You have mentioned “No Other Conditions”"
+  },
+  {
+    "id": "app.DoctorProfile.bodyTemperature",
+    "description": "bodyTemperature in vital",
+    "defaultMessage": "Body Temperature"
+  },
+  {
+    "id": "app.DoctorProfile.respirationRate",
+    "description": "respiration Rate in vital",
+    "defaultMessage": "Respiration Rate"
+  },
+  {
+    "id": "app.DoctorProfile.pulseRate",
+    "description": "pulse rate in vital",
+    "defaultMessage": "Pulse Rate"
+  },
+  {
+    "id": "app.DoctorProfile.bpm",
+    "description": "bpm in vital",
+    "defaultMessage": "bpm"
+  },
+  {
+    "id": "app.DoctorProfile.bloodPressure",
+    "description": "blood pressure in vitals",
+    "defaultMessage": "Blood Pressure"
+  },
+  {
+    "id": "app.DoctorProfile.bpUnit",
+    "description": "bpunit in vital",
+    "defaultMessage": "systolic/diastolic in mmHg"
+  },
+  {
+    "id": "app.DoctorProfile.breathePerMinute",
+    "description": "breathe per minute in vital",
+    "defaultMessage": "breathe per minute"
+  },
+  {
+    "id": "app.DoctorProfile.updateAt",
+    "description": "updateAt in vitals",
+    "defaultMessage": "Last updated on"
+  },
+  {
+    "id": "app.DoctorProfile.latestRating",
+    "description": "latestReading in vitals",
+    "defaultMessage": "Latest Readings"
+  },
+  {
+    "id": "app.DoctorProfile.use-comma",
+    "description": "use comma tip",
+    "defaultMessage": "Use , (comma) to add more • Optional"
+  },
+  {
+    "id": "app.DoctorProfile.details",
+    "description": "Details in profile header",
+    "defaultMessage": "Details"
+  }
+]

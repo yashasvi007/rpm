@@ -1,0 +1,22 @@
+[
+  {
+    "id": "app.header.dashboard",
+    "description": "dashboard in header",
+    "defaultMessage": "Dashboard"
+  },
+  {
+    "id": "app.header.mycalender",
+    "description": "mycalender in header",
+    "defaultMessage": "My Calendar"
+  },
+  {
+    "id": "app.header.program",
+    "description": "program in hearder",
+    "defaultMessage": "Programs"
+  },
+  {
+    "id": "app.header.surveys",
+    "description": "surveys in header",
+    "defaultMessage": "Surveys"
+  }
+]

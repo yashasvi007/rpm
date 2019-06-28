@@ -1,0 +1,104 @@
+@import (reference) "../../../../styles/variables/index.less";
+
+.m {
+  .home {
+    .footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 40px;
+      z-index: 25;
+      background: @white;
+      border: 1px solid @silver;
+      z-index: 10;
+
+      .ant-menu {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+
+        .ant-menu-item {
+          color: @subdued;
+          font-family: @MediumFont;
+          display: flex;
+          align-items: center;
+          > a {
+            color: @subdued;
+          }
+
+          padding: 1px 10px;
+        }
+
+        .ant-menu-item-active {
+          border-bottom: 4px solid @dark;
+          color: @dark;
+
+          > a {
+            color: @dark;
+          }
+        }
+
+        .ant-menu-item-selected {
+          border-bottom: 4px solid @dark !important;
+          color: @dark;
+
+          > a {
+            color: @dark;
+          }
+        }
+      }
+    }
+  }
+
+  .hide-scroll {
+    -ms-overflow-style: none; // IE 10+
+    scrollbar-width: none; // Firefox
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .menu-black {
+    .ant-menu {
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+      .ant-menu-item {
+        color: @subdued;
+        font-family: @MediumFont;
+        display: flex;
+        align-items: center;
+        > a {
+          color: @subdued;
+        }
+        width: 50%;
+        justify-content: center;
+        padding: 1px 10px;
+      }
+      .ant-menu-item-active {
+        border-bottom: 4px solid @dark;
+        color: @dark;
+        > a {
+          color: @dark;
+        }
+      }
+      .ant-menu-item-selected {
+        border-bottom: 4px solid @dark !important;
+        color: @dark;
+
+        > a {
+          color: @dark;
+        }
+      }
+    }
+  }
+}

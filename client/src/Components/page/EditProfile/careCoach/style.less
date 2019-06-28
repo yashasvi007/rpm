@@ -1,0 +1,155 @@
+@import (reference) "../../../../styles/variables/index.less";
+
+.add-modals {
+  .ant-modal {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    top: 0px;
+    float: right;
+
+    .ant-modal-close {
+      left: 4px;
+      color: #2b3a42;
+
+      i.ant-modal-close-icon {
+        font-size: 20px;
+      }
+    }
+
+    .ant-modal-title {
+      margin-left: 36px;
+      font-size: 18px;
+      color: #2b3a42;
+      font-family: @DemiMediumFont;
+    }
+
+    .ant-form-item-required {
+      font-size: 12px;
+    }
+
+    .ant-form label {
+      font-size: 12px;
+    }
+
+    .optional {
+      font-size: 16px;
+      color: #2b3a42;
+      margin-bottom: 10px;
+      margin-top: 40px;
+    }
+
+    .mobile-gender {
+      font-size: 12px;
+      color: #7f888d;
+      margin-right: 10px;
+      padding-bottom: 5px;
+    }
+
+    .ant-modal-header {
+      border-bottom: none;
+    }
+
+    .ant-modal-content {
+      height: auto;
+      border-radius: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .male_female_radio_group {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      label {
+        padding-left: 4px;
+
+        span {
+          color: @dark;
+          font-size: @16px;
+          padding: 0;
+        }
+      }
+
+      .ant-radio-button-wrapper-checked {
+        background-color: @dark;
+
+        span {
+          color: @white;
+        }
+      }
+
+      .ant-radio-button-wrapper-checked:active {
+        background-color: @dark;
+
+        span {
+          color: @white;
+        }
+      }
+    }
+
+    .cancel-button.hidden {
+      display: none !important;
+    }
+
+    .ant-select-arrow {
+      top: 35%;
+    }
+
+    .end-padding {
+      padding-bottom: 45px;
+    }
+
+    .ant-modal-footer {
+      position: fixed;
+      //right    : 12px;
+      bottom: 0;
+      width: 520px;
+      background: white;
+      padding-top: 10px;
+      float: right;
+      z-index: 1;
+    }
+  }
+
+  .carecoach-new-user-failure-message {
+    z-index: 1;
+    position: fixed;
+    bottom: 68px;
+    width: 513px;
+
+    right: 0;
+    left: unset;
+    height: fit-content;
+  }
+
+  @media (min-width: @desktop-min) {
+    .iqvia-error {
+      // animation          : hide-animation 10s ease-out 0s;
+      // animation-fill-mode: forwards;
+      position: fixed;
+      bottom: 68px;
+      width: 513px;
+      right: 0;
+      top: unset;
+      left: unset;
+      background-color: #fff8f5;
+    }
+
+    .iqvia-error.top60 {
+      top: 60px !important;
+    }
+  }
+}
+
+.carecoach-new-user-success-message {
+  position: fixed;
+  top: 60px;
+  width: auto;
+  z-index: 50;
+  height: 65px;
+  background: #f1f9ef;
+}

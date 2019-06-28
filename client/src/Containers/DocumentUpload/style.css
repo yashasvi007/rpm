@@ -1,0 +1,22 @@
+.documentUploadDiv {
+  margin: 10% 10% 2% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.docRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.fileButton {
+  margin-left: 10px;
+}
+
+.addDocButton {
+  margin-right: 10px;
+}

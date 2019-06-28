@@ -1,0 +1,26 @@
+@import "../../../styles/variables/index.less";
+.leftPanelBox {
+  width: @360px;
+  height: calc(100vh - calc(@72px + @64px));
+  background: #ffffff;
+  padding-left: @24px;
+  padding-right: @40px;
+}
+
+.product {
+  width: @115px;
+  height: @32px;
+  border-radius: @20px;
+  background-color: @light-blue-grey-50;
+  margin-right: @8px;
+  margin-bottom: @8px;
+  span:nth-child(1) {
+    margin-right: @12px;
+  }
+  span:nth-child(2) {
+    text-align: center;
+    font-size: 12px;
+    color: @deep-sea-blue;
+    font-family: @MediumFont;
+  }
+}

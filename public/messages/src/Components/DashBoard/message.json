@@ -1,0 +1,82 @@
+[
+  {
+    "id": "app.dashboard.carecoach.program.heading",
+    "description": "carecoach dashboard program heading",
+    "defaultMessage": "Programs"
+  },
+  {
+    "id": "app.dashboard.carecoach.program.active",
+    "description": "carecoach dashboard active program",
+    "defaultMessage": "Active"
+  },
+  {
+    "id": "app.dashboard.carecoach.program.expired",
+    "description": "carecoach dashboard expired program",
+    "defaultMessage": "Expired"
+  },
+  {
+    "id": "app.dashboard.carecoach.program.sort.recentUpdated",
+    "description": "carecoach dashboard sort program by recently updated",
+    "defaultMessage": "Recently Updated"
+  },
+  {
+    "id": "app.dashboard.carecoach.program.sort.name",
+    "description": "carecoach dashboard sort program by name",
+    "defaultMessage": "Name"
+  },
+  {
+    "id": "app.dashboard.carecoach.program.sort.dateAdded",
+    "description": "carecoach dashboard sort program by dateAdded",
+    "defaultMessage": "Date Added"
+  },
+  {
+    "id": "common.dashboard.appointments",
+    "description": "All users dashboard headings for appointments",
+    "defaultMessage": "Appointments"
+  },
+  {
+    "id": "common.dashboard.reminders",
+    "description": "All users dashboard headings for reminders",
+    "defaultMessage": "Reminders"
+  },
+  {
+    "id": "common.dashboard.view.all",
+    "description": "All users dashboard heading for view all",
+    "defaultMessage": "View All"
+  },
+  {
+    "id": "CareCoach.dashboard.dateSent",
+    "description": "All dashboard Survey Sorting based on DateSent",
+    "defaultMessage": "Date Sent"
+  },
+  {
+    "id": "CareCoach.dashboard.name",
+    "description": "All dashboard Survey Sorting based on name",
+    "defaultMessage": "Name"
+  },
+  {
+    "id": "CareCoach.dashboard.category",
+    "description": "All dashboard Survey Sorting based on category",
+    "defaultMessage": "Category"
+  },
+  {
+    "id": "CareCoach.dashboard.survey",
+    "description": "Dashboard Survey title",
+    "defaultMessage": "Surveys"
+  },
+  {
+    "id": "CareCoach.dashboard.sortBy",
+    "description": "Dashboard sortBy title",
+    "defaultMessage": "Sort By"
+  },
+  {
+    "id": "common.dashboard.surveys",
+    "description": "All users dashboard headings for surveys",
+    "defaultMessage": "Recently Sent Surveys"
+  },
+  {
+    "id": "common.dashboard.patientSurveys",
+    "description": "All users dashboard headings for surveys",
+    "defaultMessage": "Recent Surveys"
+  }
+]

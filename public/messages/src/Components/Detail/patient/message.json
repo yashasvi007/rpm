@@ -1,0 +1,352 @@
+[
+  {
+    "id": "app.PatientProfile.calender",
+    "description": "Calender in profile header",
+    "defaultMessage": "Calendar"
+  },
+  {
+    "id": "app.PatientProfile.medicalDetails",
+    "description": "Medical Details in profile header",
+    "defaultMessage": "Medical Details"
+  },
+  {
+    "id": "app.PatientProfile.basic",
+    "description": "Basic in medical details tabs",
+    "defaultMessage": "Basic"
+  },
+  {
+    "id": "app.PatientProfile.vital",
+    "description": "Basic in medical details tabs",
+    "defaultMessage": "Vital"
+  },
+  {
+    "id": "app.PatientProfile.clinicalReading",
+    "description": "ClinicalReading  in medical details tabs",
+    "defaultMessage": "Clinical Reading"
+  },
+  {
+    "id": "app.PatientProfile.medication",
+    "description": "Medication in medical details tabs",
+    "defaultMessage": "Medication"
+  },
+  {
+    "id": "app.PatientProfile.updatebasic",
+    "description": "Basic in medical details tabs",
+    "defaultMessage": "Update Basic"
+  },
+  {
+    "id": "app.PatientProfile.updatevital",
+    "description": "Basic in medical details tabs",
+    "defaultMessage": "Update Vital"
+  },
+  {
+    "id": "app.PatientProfile.updateclinicalReading",
+    "description": "updateClinicalReading  in medical details tabs",
+    "defaultMessage": "Update Reading"
+  },
+  {
+    "id": "app.PatientProfile.updatemedication",
+    "description": "updateMedication in medical details tabs",
+    "defaultMessage": "Update Medication"
+  },
+  {
+    "id": "app.PatientProfile.addmedication",
+    "description": "addMedication in medical details tabs",
+    "defaultMessage": "Add New Medication"
+  },
+  {
+    "id": "app.PatientProfile.adverseEvent",
+    "description": "Adverse Event in medical details tabs",
+    "defaultMessage": "Adverse Event"
+  },
+  {
+    "id": "app.PatientProfile.chiefComplaint",
+    "description": "Chief Complaint in the basic section",
+    "defaultMessage": "Chief Complaint"
+  },
+  {
+    "id": "app.PatientProfile.Allergies",
+    "description": "Allergies in the basic section",
+    "defaultMessage": "Allergies"
+  },
+  {
+    "id": "app.PatientProfile.SurgeriesOrFractures",
+    "description": "SurgeriesOrFractures in the basic section",
+    "defaultMessage": "Surgeries/Fractures"
+  },
+  {
+    "id": "app.PatientProfile.OtherCondition",
+    "description": "Other Condition in the basic section",
+    "defaultMessage": "Other Condition"
+  },
+  {
+    "id": "app.PatientProfile.EnrolledOn",
+    "description": "EnrolledOn in patient details Setion",
+    "defaultMessage": "Enrolled on"
+  },
+  {
+    "id": "app.PatientProfile.ConsentIdVerification",
+    "description": "ConsentandIDVerification in patient details Setion",
+    "defaultMessage": "Consent & ID Verification"
+  },
+  {
+    "id": "app.PatientProfile.Insurance",
+    "description": "Insurance in patient details Setion",
+    "defaultMessage": "Insurance"
+  },
+  {
+    "id": "app.PatientProfile.MedicalInsuranceProvider",
+    "description": "MedicalInsuranceProvider in patient details Setion",
+    "defaultMessage": "Medical Insurance Provider"
+  },
+  {
+    "id": "app.PatientProfile.InsurancePolicy",
+    "description": "InsurancePolicy in patient details Setion",
+    "defaultMessage": "Insurance Policy"
+  },
+  {
+    "id": "app.PatientProfile.ValidTill",
+    "description": "ValidTill in patient details Setion",
+    "defaultMessage": "Valid Till"
+  },
+  {
+    "id": "app.PatientProfile.Contacts",
+    "description": "Contacts in patient details Setion",
+    "defaultMessage": "Contacts"
+  },
+  {
+    "id": "app.PatientProfile.Personal",
+    "description": "Personal in patient details Setion",
+    "defaultMessage": "Personal"
+  },
+  {
+    "id": "app.PatientProfile.Others",
+    "description": "Others in patient details Setion",
+    "defaultMessage": "Others"
+  },
+  {
+    "id": "app.PatientProfile.CaseDoctor",
+    "description": "CaseDoctor in patient details Setion",
+    "defaultMessage": "Case Doctor"
+  },
+  {
+    "id": "app.PatientProfile.careCoach",
+    "description": "careCoach in patient details Setion",
+    "defaultMessage": "Care Coach"
+  },
+  {
+    "id": "app.PatientProfile.Hospital",
+    "description": "Hospital in patient details Setion",
+    "defaultMessage": "Hospital"
+  },
+  {
+    "id": "app.PatientProfile.EmergencyContact",
+    "description": "EmergencyContact in patient details Setion",
+    "defaultMessage": "Emergency Contact"
+  },
+  {
+    "id": "app.PatientProfile.Discharge",
+    "description": "Discharge in patient details Setion",
+    "defaultMessage": "Discharge"
+  },
+  {
+    "id": "app.PatientProfile.EditProfile",
+    "description": "EditProfile in patient details Setion",
+    "defaultMessage": "Edit Profile"
+  },
+  {
+    "id": "app.PatientProfile.Verified",
+    "description": "Verified in patient details Setion",
+    "defaultMessage": "Verified"
+  },
+  {
+    "id": "app.PatientProfile.NotVerified",
+    "description": "NotVerified in patient details Setion",
+    "defaultMessage": "Not Verified"
+  },
+  {
+    "id": "app.PatientProfile.noAllergies",
+    "description": "noAllergies in basics allergies section",
+    "defaultMessage": "You have “No Allergies”"
+  },
+  {
+    "id": "app.PatientProfile.noSurgeries",
+    "description": "noSurgeries in basics allergies section",
+    "defaultMessage": "You have “No Surgeries”"
+  },
+  {
+    "id": "app.PatientProfile.noOtherCondition",
+    "description": "noOtherCondition in basics allergies section",
+    "defaultMessage": "You have mentioned “No Other Conditions”"
+  },
+  {
+    "id": "app.PatientProfile.bodyTemperature",
+    "description": "bodyTemperature in vital",
+    "defaultMessage": "Body Temperature"
+  },
+  {
+    "id": "app.PatientProfile.respirationRate",
+    "description": "respiration Rate in vital",
+    "defaultMessage": "Respiration Rate"
+  },
+  {
+    "id": "app.PatientProfile.pulseRate",
+    "description": "pulse rate in vital",
+    "defaultMessage": "Pulse Rate"
+  },
+  {
+    "id": "app.PatientProfile.bpm",
+    "description": "bpm in vital",
+    "defaultMessage": "bpm"
+  },
+  {
+    "id": "app.PatientProfile.bloodPressure",
+    "description": "blood pressure in vitals",
+    "defaultMessage": "Blood Pressure"
+  },
+  {
+    "id": "app.PatientProfile.bpUnit",
+    "description": "bpunit in vital",
+    "defaultMessage": "systolic/diastolic in mmHg"
+  },
+  {
+    "id": "app.PatientProfile.breathePerMinute",
+    "description": "breathe per minute in vital",
+    "defaultMessage": "breathe per minute"
+  },
+  {
+    "id": "app.PatientProfile.updateAt",
+    "description": "updateAt in vitals",
+    "defaultMessage": "Last updated on"
+  },
+  {
+    "id": "app.PatientProfile.latestRating",
+    "description": "latestReading in vitals",
+    "defaultMessage": "Latest Readings"
+  },
+  {
+    "id": "app.PatientProfile.use-comma",
+    "description": "use comma tip",
+    "defaultMessage": "Use , (comma) to add more"
+  },
+  {
+    "id": "app.PatientProfile.noCLinicalReading",
+    "description": "No clinical reading",
+    "defaultMessage": "Patient doesnot have any Clinical Reading. You can add one Now!"
+  },
+  {
+    "id": "app.PatientProfile.update",
+    "description": "all update",
+    "defaultMessage": "Update"
+  },
+  {
+    "id": "app.PatientProfile.viewHistory",
+    "description": "view History button",
+    "defaultMessage": "View History"
+  },
+  {
+    "id": "app.PatientProfile.addNewReading",
+    "description": "Add new Reading button",
+    "defaultMessage": "Add New Reading"
+  },
+  {
+    "id": "app.PatientProfile.updateReading",
+    "description": "Update reading button",
+    "defaultMessage": "Update Reading"
+  },
+  {
+    "id": "app.PatientProfile.reportAnEvent",
+    "description": "report an event button",
+    "defaultMessage": "Report an Event"
+  },
+  {
+    "id": "app.PatientProfile.save",
+    "description": "Save button",
+    "defaultMessage": "Save"
+  },
+  {
+    "id": "app.PatientProfile.addAppointment",
+    "description": "Add Appointment/Reminder button",
+    "defaultMessage": "Add Appointment/Reminder"
+  },
+  {
+    "id": "app.PatientProfile.lastmedication",
+    "description": "last medication on in medication detail",
+    "defaultMessage": "Last medicated on"
+  },
+  {
+    "id": "app.PatientProfile.edicine",
+    "description": "Medicine in medication detail",
+    "defaultMessage": "Medicine"
+  },
+  {
+    "id": "app.PatientProfile.drugName",
+    "description": "drug name in medication detail",
+    "defaultMessage": "Drug Name"
+  },
+  {
+    "id": "app.PatientProfile.medicationgivenuntil",
+    "description": "medicationgivenuntil in medication detail",
+    "defaultMessage": "Medication given until"
+  },
+  {
+    "id": "app.PatientProfile.daysremaining",
+    "description": "daysremaining in medication detail",
+    "defaultMessage": "days remaining"
+  },
+  {
+    "id": "app.PatientProfile.addMedicine",
+    "description": "addMedicine in medication detail",
+    "defaultMessage": "Add Medicine"
+  },
+  {
+    "id": "app.PatientProfile.howOften",
+    "description": "how often placeholder in medication form",
+    "defaultMessage": "How Often"
+  },
+  {
+    "id": "app.PatientProfile.details",
+    "description": "Details in profile header",
+    "defaultMessage": "Details"
+  },
+  {
+    "id": "app.PatientProfile.noMedication",
+    "description": "when no medication",
+    "defaultMessage": "patients has no medication."
+  },
+  {
+    "id": "app.PatientProfile.downloadPrescription",
+    "description": "downloadPrescription button",
+    "defaultMessage": "Download Medication"
+  },
+  {
+    "id": "app.modal.adverseEvent.severity",
+    "description": "",
+    "defaultMessage": "Severity"
+  },
+  {
+    "id": "app.modal.adverseEvent.mild",
+    "description": "",
+    "defaultMessage": "Mild"
+  },
+  {
+    "id": "app.modal.adverseEvent.moderate",
+    "description": "",
+    "defaultMessage": "Moderate"
+  },
+  {
+    "id": "app.modal.adverseEvent.severe",
+    "description": "",
+    "defaultMessage": "Severe"
+  },
+  {
+    "id": "app.modal.adverseEvent.verySevere",
+    "description": "",
+    "defaultMessage": "Very Severe"
+  },
+  {
+    "id": "app.modal.adverseEvent.fatal",
+    "description": "",
+    "defaultMessage": "Fatal"
+  }
+]

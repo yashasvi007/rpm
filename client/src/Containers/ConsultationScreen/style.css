@@ -1,0 +1,19 @@
+.consultationScreen {
+  height: 100%;
+}
+
+.videoDiv {
+  /* border: 2px solid black; */
+  border: 2px solid black;
+}
+
+.chatDiv {
+  /* border: 2px solid black; */
+
+  border: 2px solid black;
+}
+
+.consultationContainerBody {
+  background-color: #ffffff;
+  margin-top: 50px;
+}

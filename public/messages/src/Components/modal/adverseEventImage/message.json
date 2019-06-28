@@ -1,0 +1,27 @@
+[
+  {
+    "id": "app.modal.adverseEventImage.cancelButton",
+    "description": "",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "app.modal.adverseEventImage.downloadAllButton",
+    "description": "",
+    "defaultMessage": "Download All Images"
+  },
+  {
+    "id": "app.modal.adverseEventImage.imagesFrom",
+    "description": "",
+    "defaultMessage": "Images From"
+  },
+  {
+    "id": "app.modal.adverseEventImage.report",
+    "description": "",
+    "defaultMessage": "report"
+  },
+  {
+    "id": "app.modal.adverseEventImage.uploadedOn",
+    "description": "",
+    "defaultMessage": "Uploaded on"
+  }
+]

@@ -1,0 +1,51 @@
+#ProviderLoginContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: url("http://www.sompaisoscatalans.cat/simage/75/751445/health-wallpaper-hd.jpg")
+    no-repeat;
+}
+#ProviderLoginFormContainer {
+  height: 30em;
+  width: 30em;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+#ProviderLoginForm {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1em solid #1890ff;
+}
+#providerForgotPasswordButton {
+  width: 100%;
+}
+#ProviderLoginForm h1 {
+  color: #3387d4 !important;
+}
+
+/* helper css */
+.clearFixVS {
+  width: 100%;
+  height: 10px;
+}
+
+.clearFixSmall {
+  width: 100%;
+  height: 40px;
+}
+
+.clearFixLarge {
+  width: 100%;
+  height: 100px;
+}

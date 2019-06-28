@@ -1,0 +1,161 @@
+@import "../../styles/variables/index.less";
+
+.dashboard-success-msg {
+  top: 65px;
+  bottom: 0px;
+}
+.patient-medicals {
+  position: relative;
+  top: 64px;
+
+  .patient-medical-tab-content {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .medication-details {
+    width: 47%;
+    margin-right: 24px;
+  }
+  .clinical-reading-detail {
+    width: 45%;
+    margin-right: 24px;
+  }
+  .basicInfo {
+    width: 158px;
+  }
+  .vitalInfo {
+    width: 158px;
+  }
+  .horizontalLine {
+    height: @2px;
+    background: #00000012;
+    margin-top: @16px;
+    margin-bottom: @16px;
+  }
+  .medication-horizontal-line {
+    height: @2px;
+    background: @silver-30;
+    margin-top: @8px;
+    margin-bottom: @4px;
+  }
+  .basicField {
+    margin-bottom: @16px;
+  }
+  .how-often .ant-select-selection .ant-select-arrow .ant-select-arrow-icon {
+    margin-top: -6px;
+  }
+
+  .adverse-event-table {
+    .ant-table-small
+      > .ant-table-content
+      > .ant-table-body
+      > table
+      > .ant-table-thead
+      > tr
+      > th {
+      background-color: rgba(@pure-black, 0.02);
+      border-bottom: none;
+      width: 25%;
+      text-align: left;
+    }
+
+    .ant-table-small
+      > .ant-table-content
+      > .ant-table-body
+      > table
+      > .ant-table-tbody
+      > tr
+      > td {
+      text-align: left;
+    }
+
+    .ant-table,
+    .ant-table-small {
+      color: black;
+      border: none;
+
+      .ant-table-body {
+        margin: 0;
+      }
+      td,
+      th {
+        text-align: center;
+        border: none;
+      }
+
+      td:nth-child(1),
+      th:nth-child(1) {
+        text-align: left;
+      }
+    }
+
+    .ant-table-thead div {
+      color: #7f888d;
+    }
+  }
+  .medicalTabs .ant-tabs-bar .ant-tabs-nav-container .ant-tabs-nav-scroll {
+    padding-top: @28px;
+    margin-left: @24px;
+  }
+  .medicalTabs .ant-tabs-bar .ant-tabs-extra-content {
+    margin-top: @15px;
+  }
+}
+
+.survey {
+  margin-left: 240px;
+  margin-right: 240px;
+  min-height: 100%;
+  display: flex;
+  top: 64px;
+  position: relative;
+  margin: 0 auto;
+  flex-direction: column;
+
+  .survey-header {
+    margin-top: @100px;
+  }
+
+  .survey-input {
+    max-width: @200px;
+    margin-right: @8px;
+  }
+  .survey-input.ant-input-affix-wrapper .ant-input {
+    height: @40px;
+    padding-left: 40px;
+  }
+
+  .sortBy {
+    height: @40px;
+    background: @silver-30;
+    border-radius: @4px;
+  }
+  .sortBy .ant-select .ant-select-selection {
+    height: @40px;
+    width: 130px;
+    border: 0;
+    background: rgba(212, 215, 217, -0.7);
+    margin-bottom: @12px;
+  }
+  .sortBy .ant-select-focused .ant-select-selection {
+    box-shadow: none;
+    border: 0;
+  }
+
+  .sortBy .ant-select-open .ant-select-selection {
+    box-shadow: none;
+    border: 0;
+  }
+  .sortBy .ant-select .ant-select-selection {
+    .ant-select-selection__rendered .ant-select-selection-selected-value {
+      color: @dark;
+      font-family: @MediumFont;
+    }
+  }
+  .sortBy .ant-select .ant-select-selection {
+    .ant-select-selection__rendered {
+      margin: 0;
+      padding: 5px 10px;
+    }
+  }
+}

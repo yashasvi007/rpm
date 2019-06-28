@@ -1,0 +1,12 @@
+.historyDateDiv {
+  margin-top: 2%;
+}
+
+.appointmentHistoryCard {
+  margin-top: 50px;
+}
+
+.appointmentHistoryColumn {
+  display: flex !important;
+  justify-content: center !important;
+}

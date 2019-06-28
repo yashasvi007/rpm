@@ -1,0 +1,53 @@
+@import "../../../styles/variables/index.less";
+
+.m {
+  .patient-survey-response-container-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 64px;
+    height: calc(100vh - 64px);
+    width: 100%;
+    justify-content: space-between;
+    background-color: @silver-10;
+    .patient-survey-response-container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      overflow-y: auto;
+      padding: 16px;
+      .patient-img {
+        width: 64px;
+        height: 64px;
+      }
+      .patient-img-container {
+        width: 64px;
+        height: 64px;
+        background-color: @label-color;
+        border-radius: 50%;
+      }
+      .patient-survey-response {
+        width: 100%;
+        padding: 24px 16px;
+      }
+      .view-profile.ant-btn {
+        width: 100%;
+        height: 40px;
+        border-radius: 4px;
+        background-color: @silver-30;
+        margin-bottom: @16px;
+        border: 0;
+      }
+    }
+    .fixed-header-sticky-patient-response {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      height: 72px;
+      padding: 16px;
+      border: solid 1px @silver;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+#appHeaderContainer {
+  display: flex;
+  background: #303031;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+}
+
+#appHeaderContainer h1 {
+  color: white;
+  font-family: AvenirNext-Medium;
+}
+
+.welcomeMessage {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  justify-content: flex-end;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  right: 20px;
+}
+
+.welcomeMessage > h3 {
+  color: white;
+  font-family: AvenirNext-Medium;
+}

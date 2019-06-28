@@ -1,0 +1,66 @@
+{
+  "button": {
+    "sign-in": "Sign In",
+    "sign-up": "Sign Up",
+    "skip": "Skip",
+    "enable-calendar": "Enable Calendar Sync"
+  },
+
+  "header-logo-text": "P E P",
+  "footer-text": "",
+
+  "signup-page": {
+    "doctor": {
+      "title": "Hello Doctor"
+    },
+    "careCoach": {
+      "title": "Hey Coach"
+    },
+    "programAdmin": {
+      "title": "Hello Captain"
+    },
+    "description": "You are just a click away from getting started",
+    "email": "Email",
+    "new-password": "New Password",
+    "Confirm-password": "Confirm Password",
+    "privacy-msg": "I agree the <a>Privacy Policy</a> & <a>conditions</a>"
+  },
+
+  "landing-page": {
+    "upper-view": {
+      "description": "Patient Health Care Journey Made Easy Than Ever Before!",
+      "get-started-button": "LET'S GET STARTED"
+    },
+    "middle-view": {
+      "title": "Introducing",
+      "sub-title": "Remote Patient Monitoring",
+      "doctor-description": "Patients can now consult with Doctors online from anywhere",
+      "nurse-description": "Patients are taken care by Care Coaches near by them",
+      "report-description": "Doctors can track their patients’ health from anywhere"
+    },
+    "lower-view": {
+      "header": "Here’s How It Works",
+      "medical-checkup-description": {
+        "title": "Online Doctor Consultation",
+        "content": "Patients can make an appointment for a Doctor’s consultation from their home convenience, at the scheduled time Patient can join the live interactive video call with Doctor online, to consult and Doctor can also give prescriptions during the session."
+      },
+      "medical-report-description": {
+        "title": "Personal Care Assistance",
+        "content": "Personal Care Coaches are assigned from near the patient’s living place. The Care Coach will make an appointment to administer medicines or to check patients health, vitals & always at reach to assist patients in need."
+      }
+    }
+  },
+
+  "calendar-sync-page": {
+    "title": "Welcome to Remote Patient Monitoring",
+    "subtitle": "First, let’s sync your email calendar for a personalised experience",
+    "description": "You can change this information anytime, in “Settings” section from “My Profile”",
+    "privacy-msg": "Your information is safe. We do not use or sell your information"
+  },
+
+  "dashboard": {
+    "doctor": {
+      "header-tabs": ["Dash"]
+    }
+  }
+}

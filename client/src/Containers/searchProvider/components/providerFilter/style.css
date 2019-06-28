@@ -1,0 +1,11 @@
+#searchProviderFilterContainer {
+  /* background: #404044de; */
+  width: 80%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border-radius: 10px; */
+  /* opacity: 0.8; */
+  /* box-shadow: 1px 1px 1px 1px gray; */
+}

@@ -1,0 +1,227 @@
+@import "../../styles/variables/index.less";
+
+.surveyDetail {
+  position: relative;
+  top: 64px;
+  display: flex;
+  height: auto;
+  min-height: 100%;
+
+  .MenuOption {
+    position: absolute;
+    top: 25px;
+    left: 42%;
+  }
+
+  .profileHead {
+    height: 72px;
+    border-bottom: 1px solid @silver;
+    position: fixed;
+    width: 100%;
+    background: @white;
+    z-index: 2;
+  }
+  .back-location {
+    padding: @24px;
+  }
+  .backButton {
+    width: @24px;
+    height: @24px;
+  }
+  .row {
+    position: fixed;
+    top: 135px;
+    height: 100%;
+    width: 100%;
+  }
+  .survey-content {
+    margin-bottom: 150px;
+  }
+  .patient-pane {
+    height: 100%;
+
+    .patients-selection {
+      height: 100%;
+      margin: 0 4px 0 16px;
+      overflow-y: auto;
+    }
+    .select-program {
+      min-width: @290px;
+    }
+    .arrow-img-program-select {
+      margin-top: -5px;
+    }
+    .survey-detail-input {
+      max-width: @190px;
+      margin-right: @8px;
+    }
+    .survey-detail-input.ant-input-affix-wrapper .ant-input {
+      height: @40px;
+    }
+    .search-icons {
+      margin-right: @12px;
+      width: @17px;
+      height: @17px;
+    }
+    .multiselect {
+      width: @19px;
+      height: @20px;
+    }
+    .survey-detail-select {
+      height: @40px;
+      background: @silver-30;
+      border-radius: @4px;
+    }
+    .survey-detail-select .ant-select .ant-select-selection {
+      height: @40px;
+      width: 130x;
+      border: 0;
+      background: rgba(212, 215, 217, -0.7);
+      margin-bottom: @10px;
+    }
+    .survey-detail-select .ant-select-focused .ant-select-selection {
+      box-shadow: none;
+      border: 0;
+    }
+
+    .survey-detail-select .ant-select-open .ant-select-selection {
+      box-shadow: none;
+      border: 0;
+    }
+    .survey-detail-select .ant-select .ant-select-selection {
+      .ant-select-selection__rendered .ant-select-selection-selected-value {
+        color: @dark;
+        font-family: @MediumFont;
+      }
+    }
+    .survey-detail-select .ant-select .ant-select-selection {
+      .ant-select-selection__rendered {
+        margin: 0;
+        padding: 5px 10px;
+      }
+    }
+
+    .survey-detail-select .ant-select {
+      width: @130px;
+    }
+
+    .survey-detail-select .ant-select .ant-select-selection {
+      height: @40px;
+      width: @110px;
+      border: 0;
+      background: rgba(212, 215, 217, -0.7);
+      margin-bottom: @10px;
+    }
+    .survey-detail-select .ant-select-selection__rendered {
+      margin: 0;
+      max-width: 100px;
+    }
+    .range-picker .ant-calendar-picker {
+      max-width: @250px;
+    }
+    .patient-cards {
+      max-width: @254px;
+    }
+    .arrow-img {
+      margin-right: -20px;
+    }
+    .the-cards {
+      height: auto;
+      padding-bottom: 200px;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+    .the-cards .ant-card.patient {
+      margin: 8px 16px;
+      width: @290px;
+    }
+  }
+  .survey-pane {
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: @label-color;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: @silver;
+  }
+
+  .result-completed {
+    margin-top: 72px;
+    margin-left: 248px;
+    margin-right: 248px;
+  }
+  .survey-input.ant-input-affix-wrapper {
+    max-width: 360px;
+    .ant-input:not(:first-child) {
+      padding-left: 40px;
+    }
+  }
+  .sortBy {
+    height: @40px;
+    background: @silver-30;
+    border-radius: @4px;
+  }
+  .sortBy .ant-select .ant-select-selection {
+    height: @40px;
+    width: 130px;
+    border: 0;
+    background: rgba(212, 215, 217, -0.7);
+    margin-bottom: @12px;
+  }
+  .sortBy .ant-select-focused .ant-select-selection {
+    box-shadow: none;
+    border: 0;
+  }
+
+  .sortBy .ant-select-open .ant-select-selection {
+    box-shadow: none;
+    border: 0;
+  }
+  .sortBy .ant-select .ant-select-selection {
+    .ant-select-selection__rendered .ant-select-selection-selected-value {
+      color: @dark;
+      font-family: @MediumFont;
+    }
+  }
+  .sortBy .ant-select .ant-select-selection {
+    .ant-select-selection__rendered {
+      margin: 0;
+      padding: 5px 10px;
+    }
+  }
+}
+
+#root {
+  .end-survey.ant-btn-background-ghost {
+    border: solid 1px @orangered !important;
+    color: @orangered !important;
+  }
+}
+
+.inprogress-participants {
+  .patient.ant-card {
+    margin-right: 8px;
+  }
+  .patient.ant-card:hover {
+    margin-right: 8px;
+  }
+}

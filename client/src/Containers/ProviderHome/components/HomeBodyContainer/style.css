@@ -1,0 +1,98 @@
+#HomeBodyContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+#HomeBodyWeekContainer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+#HomeBodyWeekContainer .ant-calendar-picker {
+  width: 35%;
+}
+
+.noResultContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 20px 20px 2px;
+}
+
+.resultCardRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.resultCardCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.BookingReqCard {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 0 0 0 0;
+}
+.BookingReqCard .ant-card-body {
+  padding: 0 0 0 0;
+}
+.CardHeader {
+  width: 100%;
+  height: 45px;
+  background: #006cff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.CardHeaderIconContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+.CardHeaderTitleContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 0;
+}
+.CardHeaderTitleContainer h3 {
+  color: #ffffff !important;
+  margin: 0 0 0 0;
+}
+.CardBodyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/**********css helper classes********/
+
+.clearFixVerticalVS {
+  height: 100%;
+  width: 2%;
+}
+
+.clearFixHorizontalVS {
+  height: 10px;
+  width: 100%;
+}

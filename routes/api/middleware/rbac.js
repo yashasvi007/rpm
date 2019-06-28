@@ -1,0 +1,130 @@
+import { RBAC } from "rbac";
+import {
+  USER_CATEGORY,
+  RESOURCES,
+  PERMISSIONS,
+  GRANTS
+} from "../../../constant";
+
+const { DOCTOR, CARE_COACH, PROGRAM_ADMIN, PATIENT } = USER_CATEGORY;
+const {
+  CREATE,
+  INVITE,
+  UPDATE,
+  VIEW,
+  CANCEL,
+  SEND,
+  VERIFY,
+  END,
+  DISCHARGE
+} = PERMISSIONS;
+const {
+  PROGRAM,
+  ADVERSE_EVENT,
+  EVENT,
+  HOSPITAL,
+  INSURANCE_PROVIDER,
+  MEDICATION,
+  OTP,
+  PASSWORD,
+  PRODUCT,
+  SURVEY,
+  TWILIO,
+  USERS
+} = GRANTS;
+
+const rbac = new RBAC({
+  roles: [DOCTOR, CARE_COACH, PROGRAM_ADMIN, PATIENT],
+  permissions: {
+    doctors: [CREATE, INVITE, UPDATE, VIEW],
+    patients: [CREATE, INVITE, UPDATE, VIEW, DISCHARGE, VERIFY],
+    careCoaches: [CREATE, INVITE, UPDATE, VIEW],
+    programs: [CREATE, UPDATE, VIEW],
+    events: [CREATE, UPDATE, VIEW, CANCEL],
+    passwords: [UPDATE],
+    medications: [CREATE, UPDATE, VIEW],
+    adverseEvents: [CREATE, VIEW],
+    products: [CREATE, UPDATE, VIEW],
+    insuranceProviders: [UPDATE, VIEW],
+    hospitals: [UPDATE, VIEW],
+    twilios: [CREATE, UPDATE],
+    surveys: [CREATE, UPDATE, VIEW, END],
+    otps: [SEND, VERIFY]
+  },
+  grants: {
+    doctor: [
+      PROGRAM.VIEW,
+      EVENT.VIEW,
+      EVENT.UPDATE,
+      EVENT.CANCEL,
+      PASSWORD.UPDATE,
+      USERS.VIEW_DOCTOR,
+      USERS.UPDATE_DOCTOR,
+      PRODUCT.VIEW,
+      HOSPITAL.VIEW,
+      HOSPITAL.UPDATE,
+      TWILIO.CREATE,
+      TWILIO.UPDATE,
+      OTP.SEND,
+      OTP.VERIFY
+    ],
+    careCoach: [
+      PROGRAM.VIEW,
+      EVENT.CREATE,
+      EVENT.VIEW,
+      EVENT.UPDATE,
+      EVENT.CANCEL,
+      PASSWORD.UPDATE,
+      USERS.UPDATE_CARE_COACH,
+      USERS.UPDATE_DOCTOR,
+      USERS.UPDATE_PATIENT,
+      USERS.VIEW_DOCTOR,
+      USERS.VIEW_PATIENT,
+      USERS.VERIFY_PATIENT,
+      USERS.DISCHARGE_PATIENT,
+      MEDICATION.VIEW,
+      MEDICATION.CREATE,
+      MEDICATION.UPDATE,
+      ADVERSE_EVENT.CREATE,
+      ADVERSE_EVENT.VIEW,
+      PRODUCT.VIEW,
+      INSURANCE_PROVIDER.VIEW,
+      INSURANCE_PROVIDER.UPDATE,
+      HOSPITAL.VIEW,
+      HOSPITAL.UPDATE,
+      TWILIO.CREATE,
+      TWILIO.UPDATE,
+      SURVEY.CREATE,
+      SURVEY.VIEW,
+      SURVEY.UPDATE,
+      SURVEY.END,
+      OTP.SEND,
+      OTP.VERIFY
+    ],
+    patient: [
+      //PROGRAM.VIEW,
+      EVENT.CREATE,
+      EVENT.VIEW,
+      EVENT.UPDATE,
+      EVENT.CANCEL,
+      PASSWORD.UPDATE,
+      USERS.VIEW_PATIENT,
+      USERS.UPDATE_PATIENT,
+      MEDICATION.VIEW,
+      ADVERSE_EVENT.CREATE,
+      ADVERSE_EVENT.VIEW,
+      INSURANCE_PROVIDER.VIEW,
+      INSURANCE_PROVIDER.UPDATE,
+      HOSPITAL.VIEW,
+      TWILIO.CREATE,
+      TWILIO.UPDATE,
+      SURVEY.VIEW,
+      SURVEY.UPDATE,
+      OTP.SEND,
+      OTP.VERIFY
+    ],
+    programAdmin: [PROGRAM.VIEW]
+  }
+});
+
+module.exports = rbac;

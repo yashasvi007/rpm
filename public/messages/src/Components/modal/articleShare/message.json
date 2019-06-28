@@ -1,0 +1,12 @@
+[
+  {
+    "id": "app.modal.cancel",
+    "description": "",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "app.modal.save",
+    "description": "",
+    "defaultMessage": "Save"
+  }
+]

@@ -1,0 +1,60 @@
+@import (reference) "../../styles/variables/index.less";
+.iqvia-profile-setup-conatiner {
+  margin-top: 140px;
+  margin-right: 16px;
+  margin-left: 16px;
+  max-width: 500px;
+  .ant-upload {
+    margin: 0px;
+    &.ant-upload-drag {
+      border: none;
+      height: 150px;
+      background: transparent;
+      margin-bottom: 40px;
+      img > {
+        margin: 0 auto;
+      }
+    }
+    &.ant-upload-drag-hover {
+      border: none;
+    }
+  }
+
+  .ant-upload.ant-upload-drag.ant-upload-drag-hover:not(.ant-upload-disabled) {
+    border: none;
+  }
+
+  .setup-profile-footer {
+    .upload-btn {
+      height: 45px;
+      border-radius: 4px;
+      background-color: @primary-color;
+      color: @white;
+    }
+    &.hide-desktop {
+      border-top: solid 1px #d4d7d9;
+      position: fixed;
+      bottom: 0px;
+      right: 16px;
+      width: 100%;
+      > div {
+        float: right;
+        margin: 14px 0;
+      }
+    }
+  }
+}
+
+@media (min-width: @desktop-min) {
+  .iqvia-profile-setup-conatiner {
+    .msg {
+      top: 60px;
+    }
+  }
+}
+
+@media (max-width: @tablet-9-max) {
+  .msg {
+    bottom: 74px;
+  }
+}

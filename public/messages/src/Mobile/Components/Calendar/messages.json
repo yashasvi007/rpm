@@ -1,0 +1,92 @@
+[
+  {
+    "id": "mobile.calendar.appointments",
+    "description": "Mobile Calendar",
+    "defaultMessage": "Appointments"
+  },
+  {
+    "id": "mobile.calendar.reminder",
+    "description": "Mobile Calendar",
+    "defaultMessage": "Reminder"
+  },
+  {
+    "id": "mobile.calendar.syncCalendar",
+    "description": "Mobile Calendar",
+    "defaultMessage": "Sync Calendar"
+  },
+  {
+    "id": "mobile.calendar.show",
+    "description": "Mobile Calendar",
+    "defaultMessage": "Show"
+  },
+  {
+    "id": "calendarCard.appointment.cancel",
+    "description": "",
+    "defaultMessage": "Cancel Appointment"
+  },
+  {
+    "id": "calendarCard.appointment.reschedule",
+    "description": "",
+    "defaultMessage": "Reschedule Appointment"
+  },
+  {
+    "id": "calendarCard.appointment.editNotes",
+    "description": "",
+    "defaultMessage": "Edit Notes"
+  },
+  {
+    "id": "calendarCard.appointment.updateVitals",
+    "description": "",
+    "defaultMessage": "Update Vitals"
+  },
+  {
+    "id": "calendarCard.appointment.updateMedication",
+    "description": "",
+    "defaultMessage": "Update Medication"
+  },
+  {
+    "id": "calendarCard.appointment.updateClinicalReadings",
+    "description": "",
+    "defaultMessage": "Update Clinical Readings"
+  },
+  {
+    "id": "calendarCard.appointment.doneButton",
+    "description": "",
+    "defaultMessage": "Mark as done"
+  },
+  {
+    "id": "calendarCard.appointment.undoButton",
+    "description": "",
+    "defaultMessage": "Undo"
+  },
+  {
+    "id": "calendarCard.appointment.joinCallButton",
+    "description": "",
+    "defaultMessage": "Join Call"
+  },
+  {
+    "id": "calendarCard.reminder.addNotes",
+    "description": "",
+    "defaultMessage": "Add Notes"
+  },
+  {
+    "id": "calendarCard.reminder.editReminder",
+    "description": "",
+    "defaultMessage": "Edit Reminder"
+  },
+  {
+    "id": "calendarCard.reminder.deleteReminder",
+    "description": "",
+    "defaultMessage": "Delete Reminder"
+  },
+  {
+    "id": "calendarCard.appointment.scheduledBy",
+    "description": "",
+    "defaultMessage": "Scheduled by"
+  },
+  {
+    "id": "calendarCard.appointment.markAsDoneBy",
+    "description": "",
+    "defaultMessage": "Mark as done by"
+  }
+]

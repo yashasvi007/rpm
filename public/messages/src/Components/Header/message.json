@@ -1,0 +1,72 @@
+[
+  {
+    "id": "app.header.dashboard",
+    "description": "dashboard in header",
+    "defaultMessage": "Dashboard"
+  },
+  {
+    "id": "app.header.mycalender",
+    "description": "mycalender in header",
+    "defaultMessage": "My Calendar"
+  },
+  {
+    "id": "app.header.program",
+    "description": "program in hearder",
+    "defaultMessage": "Programs"
+  },
+  {
+    "id": "app.header.surveys",
+    "description": "surveys in header",
+    "defaultMessage": "Surveys"
+  },
+  {
+    "id": "app.header.newAppointment",
+    "description": "newAppointment in add button",
+    "defaultMessage": "New Appointment/ Reminder"
+  },
+  {
+    "id": "app.header.newPatient",
+    "description": "newPatient in add button",
+    "defaultMessage": "New Patient"
+  },
+  {
+    "id": "app.header.newDoctor",
+    "description": "newDoctor in add button",
+    "defaultMessage": "New Doctor"
+  },
+  {
+    "id": "app.header.reportAdverseEvent",
+    "description": "reportAdverseEvent in add",
+    "defaultMessage": "Report Adverse Event"
+  },
+  {
+    "id": "app.header.my-profile",
+    "description": "myprofile in header",
+    "defaultMessage": "My Profile"
+  },
+  {
+    "id": "app.header.header-logo",
+    "description": "header logo in header",
+    "defaultMessage": "P E P"
+  },
+  {
+    "id": "app.header.signUp",
+    "description": "Sign up in header",
+    "defaultMessage": "Sign Up"
+  },
+  {
+    "id": "app.header.signIn",
+    "description": "Sign in in header",
+    "defaultMessage": "Sign In"
+  },
+  {
+    "id": "app.header.MyMedicalDetails",
+    "description": "My Medical Details in header",
+    "defaultMessage": "My Medical Details"
+  },
+  {
+    "id": "app.signout",
+    "description": "signout button",
+    "defaultMessage": "Sign Out"
+  }
+]

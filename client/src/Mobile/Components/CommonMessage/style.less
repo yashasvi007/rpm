@@ -1,0 +1,78 @@
+@import "../../../styles/variables/index.less";
+
+.ant-btn.got-it-btn {
+  float: right;
+  height: 32px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgba(227, 243, 223, 0.5);
+
+  > div > img {
+    height: 12px;
+    width: 12px;
+    padding-right: 4px;
+    margin-bottom: 2px;
+  }
+}
+
+.ant-btn.got-it-btn:hover {
+  background-color: rgba(227, 243, 223, 0.5);
+}
+
+@keyframes hide-animation {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@media (min-width: @desktop-min) {
+  .iqvia-successful-msg {
+    animation: hide-animation 10s ease-out 0s;
+    animation-fill-mode: forwards;
+    position: fixed;
+    top: 130px;
+    left: 0;
+    height: 40px;
+    right: 0;
+    background-color: rgba(227, 243, 223, 0.5);
+  }
+  .iqvia-successful-msg.top60 {
+    top: 60px !important;
+  }
+}
+
+@media (max-width: @tablet-9-max) and (min-width: @tablet-9-min) {
+  .iqvia-successful-msg {
+    position: fixed;
+    bottom: 108px;
+    left: 0;
+    right: 0;
+    background-color: rgba(227, 243, 223, 0.5);
+  }
+}
+
+@media (max-width: @tablet-7-max) and (min-width: @tablet-7-min) {
+  .iqvia-successful-msg {
+    position: fixed;
+    bottom: 108px;
+    left: 0;
+    right: 0;
+    background-color: rgba(227, 243, 223, 0.5);
+  }
+}
+
+@media (max-width: @mobile-max) {
+  .iqvia-successful-msg {
+    position: fixed;
+    bottom: 108px;
+    left: 0;
+    right: 0;
+    background-color: rgba(227, 243, 223, 0.5);
+  }
+}

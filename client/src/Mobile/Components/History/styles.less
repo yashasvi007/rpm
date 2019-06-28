@@ -1,0 +1,38 @@
+@import "../../../styles/variables/index.less";
+.m {
+  .history-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    .history-container {
+      margin-top: 64px;
+      display: flex;
+      flex-direction: column;
+      height: calc(100% - 72px);
+      width: 100%;
+      overflow-y: auto;
+    }
+    .back-footer {
+      display: flex;
+      flex-direction: row;
+      padding: 16px;
+      height: 72px;
+      width: 100%;
+      justify-content: flex-start;
+      align-items: center;
+      z-index: 25;
+      border: solid 1px @silver;
+      background-color: @white;
+      .arrow-wrapper {
+        font-size: 24px;
+        margin-right: 16px;
+      }
+      .text {
+        font-size: @12px;
+        color: @dark;
+      }
+    }
+  }
+}

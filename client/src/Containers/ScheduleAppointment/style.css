@@ -1,0 +1,111 @@
+.scheduleAppointmentBody {
+  background-color: white;
+  margin: 5%;
+}
+
+.scheduleAppointmentBody h2 {
+  color: white;
+}
+
+.scheduleAppointmentBody h3 {
+  color: white;
+}
+.providerDetailBox {
+  background-color: rgba(9, 2, 43, 0.8);
+  display: flex;
+  flex-direction: row;
+  box-shadow: 2px 2px 10px;
+}
+
+.providerImageDiv {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.providerImage {
+  width: 50%;
+}
+
+.providerDetails {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.selectDateDiv {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bookingSlotsDiv {
+  margin: 5%;
+}
+
+.bookingSlots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.availableSlotBox {
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px;
+}
+
+.bookedSlotBox {
+  background-color: red;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px;
+}
+
+.slotsHeading {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.nextButton {
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
+}
+
+.bookingSlotDetailDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.selectedBookingSlot {
+  background-color: green;
+}
+
+.confirmBookingRequestModel {
+  margin: 0 10%;
+}
+
+.dateTimeSlotDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "Article.dashboard.article",
+    "description": "Dashboard Article title",
+    "defaultMessage": "Dashboard"
+  },
+  {
+    "id": "Article.dashboard.sortBy",
+    "description": "Article sortBy title",
+    "defaultMessage": "Sort By"
+  },
+  {
+    "id": "Article.dashboard.sort.dateAdded",
+    "description": "Article Sort by DateAdded",
+    "defaultMessage": "Date Added"
+  },
+  {
+    "id": "Article.dashboard.sort.name",
+    "description": "Article sort by name",
+    "defaultMessage": "Name"
+  },
+  {
+    "id": "Article.dashboard.sort.popular",
+    "description": "Article sort by popularity",
+    "defaultMessage": "Most Popular"
+  }
+]

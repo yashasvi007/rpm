@@ -1,0 +1,47 @@
+@import "../../../styles/variables/index.less";
+
+.signup-container {
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+  &.ant-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.signup-sticky-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 72px;
+  border-top: solid 1px #d4d7d9;
+  > div {
+    padding-top: 16px;
+    padding-right: 16px;
+  }
+  > signup-btn {
+    width: 40px;
+  }
+}
+
+.margin-signup-content {
+  margin-top: 56px;
+}
+
+@media (max-width: @tablet-7-max) {
+  .margin-signup-content {
+    margin-top: 28px;
+  }
+  .main-form-container {
+    padding-bottom: 72px;
+    max-height: 100%;
+    overflow: auto;
+  }
+  .signup-sticky-footer {
+    background-color: white;
+  }
+}
