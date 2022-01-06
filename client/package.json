@@ -45,7 +45,7 @@
     "reselect": "^4.0.0",
     "twilio-chat": "^3.0.2",
     "twilio-video": "^1.7.0",
-    "uppy": "^0.29.1"
+    "uppy": "^2.3.3"
   },
   "scripts": {
     "start": "react-app-rewired start",
